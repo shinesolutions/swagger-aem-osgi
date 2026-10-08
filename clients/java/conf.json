@@ -1,6 +1,6 @@
 {
   "artifactId": "swaggeraemosgi4j",
-  "artifactVersion": "1.0.0-pre.0",
+  "artifactVersion": "2.0.0",
   "artifactUrl": "https://github.com/shinesolutions/swagger-aem-osgi",
   "artifactDescription": "Java client generated from Swagger AEM specification using Swagger Code Generator.",
   "groupId": "com.shinesolutions",
