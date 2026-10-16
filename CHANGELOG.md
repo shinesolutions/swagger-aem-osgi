@@ -8,6 +8,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Publish Java client swaggeraemosgi4j to Maven Central
 
+### Changed
+- Upgrade aem-platform-buildenv to 6.3.0
+
 ## 2.0.0 - 2026-10-08
 ### Added
 - Add examples and test

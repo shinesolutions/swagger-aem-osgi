@@ -60,7 +60,7 @@ publish-java:
 # with this repository mounted read-only and MAVEN_GPG_KEY, MAVEN_GPG_PASSPHRASE,
 # MAVEN_CENTRAL_USERNAME and MAVEN_CENTRAL_PASSWORD passed through from your environment.
 # It uses the working tree, so uncommitted changes in clients/java and Makefile-extras are included.
-BUILDENV_IMAGE ?= shinesolutions/aem-platform-buildenv:6.2.1
+BUILDENV_IMAGE ?= shinesolutions/aem-platform-buildenv:6.3.0
 
 publish-java-test:
 	docker run --rm -v "$(CURDIR)":/workspace/swagger-aem-osgi:ro -v swagger-aem-osgi-m2:/root/.m2 \
