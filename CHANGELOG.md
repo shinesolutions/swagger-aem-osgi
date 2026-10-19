@@ -8,7 +8,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Publish Java client swaggeraemosgi4j to Maven Central
 
-
 ### Fixed
 - Fix metadata-lint failure on publishing by upgrading release-action to 2.1.0
 - Fix metadata-lint failure on publishing via workflow runner 6.4.1
