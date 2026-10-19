@@ -53,37 +53,22 @@ publish-java:
 # Upload test: sign the Java client and upload it to the Central Portal as a pre-release test
 # version, never publishing it, then print the deployment ID to check with publish-java-status and
 # drop with publish-java-drop. Checks the GPG key, the Central token, the upload and Central's
-# validation. Only pre-release versions are accepted; a dropped version can be reused.
-#   make -f Makefile-extras publish-java-test PUBLISH_JAVA_TEST_VERSION=1.0.0-rc.0
-#   (default: the pom.xml version with -rc.0 in place of any pre-release suffix)
-# Run publish-java-test on your machine: it runs publish-java-test-run in BUILDENV_IMAGE with Docker,
-# with this repository mounted read-only and MAVEN_GPG_KEY, MAVEN_GPG_PASSPHRASE,
-# MAVEN_CENTRAL_USERNAME and MAVEN_CENTRAL_PASSWORD passed through from your environment.
-# It uses the working tree, so uncommitted changes in clients/java and Makefile-extras are included.
-BUILDENV_IMAGE ?= shinesolutions/aem-platform-buildenv:6.3.0
-
+# validation. Uploads the current pom.xml version with -rc.0 (e.g. 1.0.0-pre.0 -> 1.0.0-rc.0),
+# which can be uploaded again once dropped.
+# Builds in a temporary copy of clients/java and Makefile-extras from the working tree (without build
+# output), so the repository is untouched. Signs with MAVEN_GPG_KEY and MAVEN_GPG_PASSPHRASE and
+# uploads with MAVEN_CENTRAL_USERNAME and MAVEN_CENTRAL_PASSWORD.
+# For example, in aem-platform-buildenv with Docker, with this repository mounted read-only:
+#   docker run --rm -v "$(pwd)":/workspace/swagger-aem-osgi:ro -w /workspace/swagger-aem-osgi \
+#     -e MAVEN_GPG_KEY -e MAVEN_GPG_PASSPHRASE -e MAVEN_CENTRAL_USERNAME -e MAVEN_CENTRAL_PASSWORD \
+#     shinesolutions/aem-platform-buildenv:6.4.1 make -f Makefile-extras publish-java-test
 publish-java-test:
-	docker run --rm -v "$(CURDIR)":/workspace/swagger-aem-osgi:ro -v swagger-aem-osgi-m2:/root/.m2 \
-	  -w /workspace/swagger-aem-osgi \
-	  -e MAVEN_GPG_KEY -e MAVEN_GPG_PASSPHRASE -e MAVEN_CENTRAL_USERNAME -e MAVEN_CENTRAL_PASSWORD \
-	  $(BUILDENV_IMAGE) make -f Makefile-extras publish-java-test-run \
-	    PUBLISH_JAVA_TEST_VERSION="$(PUBLISH_JAVA_TEST_VERSION)"
-
-# Copies clients/java and Makefile-extras (without build output) into a temporary directory, so the
-# read-only repository is untouched
-publish-java-test-run:
 	@set -euo pipefail; \
-	for var in MAVEN_GPG_KEY MAVEN_GPG_PASSPHRASE MAVEN_CENTRAL_USERNAME MAVEN_CENTRAL_PASSWORD; do \
-	  test -n "$${!var:-}" || { echo "Set $$var"; exit 1; }; \
-	done; \
 	work=$$(mktemp -d); trap 'rm -rf "$$work"' EXIT; \
 	tar -c --exclude=target clients/java Makefile-extras | tar -x -C "$$work"; \
 	cd "$$work"; \
 	current=$$(cd $(JAVA_CLIENT_DIR) && $(MVN) -q help:evaluate -Dexpression=project.version -DforceStdout); \
-	version="$(PUBLISH_JAVA_TEST_VERSION)"; \
-	[[ -n "$$version" ]] || version="$${current%%-*}-rc.0"; \
-	[[ "$$version" =~ ^[0-9]+\.[0-9]+\.[0-9]+-[0-9A-Za-z.-]+$$ && "$$version" != *SNAPSHOT* ]] \
-	  || { echo "publish-java-test only uploads pre-release versions such as 1.0.0-rc.0, not $$version"; exit 1; }; \
+	version="$${current%%-*}-rc.0"; \
 	echo "Uploading swaggeraemosgi4j $$current to the Central Portal as $$version (it is not published)"; \
 	(cd $(JAVA_CLIENT_DIR) && $(MVN) -q versions:set -DnewVersion="$$version" -DgenerateBackupPoms=false); \
 	$(MAKE) -f Makefile-extras publish-java | tee deploy.log; \
@@ -114,4 +99,4 @@ publish-java-status:
 publish-java-drop:
 	@$(call central_api,DELETE,deployment/$(DEPLOYMENT_ID))
 
-.PHONY: build-java test-java publish-java publish-java-test publish-java-test-run publish-java-status publish-java-drop
+.PHONY: build-java test-java publish-java publish-java-test publish-java-status publish-java-drop
