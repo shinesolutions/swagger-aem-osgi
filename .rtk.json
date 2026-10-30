@@ -15,6 +15,13 @@
       }
     },
     {
+      "path": "clients/java/generated/pom.xml",
+      "type": "text",
+      "params": {
+        "regex": "(?<=<name>swaggeraemosgi4j</name>\\s*<version>)[^<]+"
+      }
+    },
+    {
       "path": "clients/javascript/conf.json",
       "type": "json",
       "params": {
@@ -72,6 +79,14 @@
     },
     {
       "path": ".github/workflows/publish-ruby-workflow.yaml",
+      "type": "yaml",
+      "params": {
+        "property": "jobs.build.steps[0].with.ref",
+        "post_release_value": "main"
+      }
+    },
+    {
+      "path": ".github/workflows/publish-java-workflow.yaml",
       "type": "yaml",
       "params": {
         "property": "jobs.build.steps[0].with.ref",
