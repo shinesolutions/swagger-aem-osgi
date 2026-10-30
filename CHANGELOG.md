@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 - Fix metadata-lint failure on publishing by upgrading release-action to 2.1.0
 - Fix metadata-lint failure on publishing via workflow runner 6.4.1
+- Fix Java client pom.xml version not following the release version
 
 ## 2.0.1 - 2026-10-28
 ### Fixed
