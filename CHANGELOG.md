@@ -12,6 +12,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fix metadata-lint failure on publishing by upgrading release-action to 2.1.0
 - Fix metadata-lint failure on publishing via workflow runner 6.4.1
 
+## 2.0.1 - 2026-10-28
+### Fixed
+- Ruby API client no longer follows redirects by default, so 302 responses are returned to the caller again; the post-generate hooks in Makefile-extras keep this when the clients are regenerated
+
 ## 2.0.0 - 2026-10-08
 ### Added
 - Add examples and test
