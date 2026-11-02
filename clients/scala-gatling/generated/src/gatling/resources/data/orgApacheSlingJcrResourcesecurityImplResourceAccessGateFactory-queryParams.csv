@@ -1,1 +1,1 @@
-propertylist,$location,apply,path,checkpath.prefix,delete,jcrPath,action,post
+propertylist,$location,apply,action,post,jcrPath,delete,path,checkpath.prefix

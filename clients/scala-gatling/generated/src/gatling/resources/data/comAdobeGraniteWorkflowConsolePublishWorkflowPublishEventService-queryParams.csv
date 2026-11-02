@@ -1,1 +1,1 @@
-propertylist,$location,apply,delete,action,post,granite.workflow.WorkflowPublishEventService.enabled
+propertylist,$location,apply,granite.workflow.WorkflowPublishEventService.enabled,action,post,delete

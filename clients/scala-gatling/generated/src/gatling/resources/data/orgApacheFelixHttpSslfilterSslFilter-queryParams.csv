@@ -1,1 +1,1 @@
-ssl-forward.value,propertylist,$location,apply,delete,action,rewrite.absolute.urls,post,ssl-forward.header,ssl-forward-cert.header
+propertylist,ssl-forward.value,$location,apply,ssl-forward.header,rewrite.absolute.urls,action,post,delete,ssl-forward-cert.header

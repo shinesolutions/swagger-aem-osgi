@@ -1,6 +1,5 @@
 .flake8
 .gitignore
-.openapi-generator-ignore
 Dockerfile
 README.md
 docker-compose.yaml
@@ -1466,4 +1465,3 @@ src/openapi_server/models/org_apache_sling_xss_impl_xss_filter_impl_info.py
 src/openapi_server/models/org_apache_sling_xss_impl_xss_filter_impl_properties.py
 src/openapi_server/security_api.py
 tests/conftest.py
-tests/test_configmgr_api.py

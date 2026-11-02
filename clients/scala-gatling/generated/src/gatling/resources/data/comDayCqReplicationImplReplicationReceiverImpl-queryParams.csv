@@ -1,1 +1,1 @@
-propertylist,$location,apply,receiver.tmpfile.threshold,delete,action,post,receiver.packages.use.install
+propertylist,$location,receiver.packages.use.install,apply,action,post,delete,receiver.tmpfile.threshold

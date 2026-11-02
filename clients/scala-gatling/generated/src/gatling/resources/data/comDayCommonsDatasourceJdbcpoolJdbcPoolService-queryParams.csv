@@ -1,1 +1,1 @@
-propertylist,$location,apply,datasource.name,action,jdbc.password,pool.max.wait.msec,post,default.autocommit,jdbc.driver.class,pool.size,datasource.svc.properties,delete,jdbc.connection.uri,default.readonly,jdbc.validation.query,jdbc.username
+propertylist,jdbc.username,$location,apply,action,pool.max.wait.msec,post,jdbc.driver.class,default.autocommit,jdbc.connection.uri,default.readonly,datasource.svc.properties,pool.size,jdbc.password,delete,jdbc.validation.query,datasource.name

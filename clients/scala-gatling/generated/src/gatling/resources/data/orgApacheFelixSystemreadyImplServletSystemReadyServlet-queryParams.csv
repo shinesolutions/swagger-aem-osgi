@@ -1,1 +1,1 @@
-propertylist,$location,apply,osgi.http.whiteboard.servlet.pattern,delete,action,osgi.http.whiteboard.context.select,post
+propertylist,$location,apply,action,osgi.http.whiteboard.context.select,post,delete,osgi.http.whiteboard.servlet.pattern

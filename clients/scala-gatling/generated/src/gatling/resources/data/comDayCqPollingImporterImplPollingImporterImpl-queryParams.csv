@@ -1,1 +1,1 @@
-importer.user,exclude.paths,propertylist,$location,apply,include.paths,delete,action,post,importer.min.interval
+propertylist,importer.user,$location,apply,exclude.paths,importer.min.interval,action,post,delete,include.paths

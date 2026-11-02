@@ -4,7 +4,7 @@
   <artifactId>openapi-jaxrs-server</artifactId>
   <packaging>war</packaging>
   <name>openapi-jaxrs-server</name>
-  <version>1.0.0-pre.0</version>
+  <version>2.1.1-pre.0</version>
 
 
   <build>

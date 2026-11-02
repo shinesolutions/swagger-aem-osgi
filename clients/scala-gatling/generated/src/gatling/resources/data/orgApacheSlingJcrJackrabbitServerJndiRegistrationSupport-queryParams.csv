@@ -1,1 +1,1 @@
-propertylist,$location,apply,java.naming.factory.initial,java.naming.provider.url,delete,action,post
+propertylist,$location,java.naming.factory.initial,apply,action,post,delete,java.naming.provider.url

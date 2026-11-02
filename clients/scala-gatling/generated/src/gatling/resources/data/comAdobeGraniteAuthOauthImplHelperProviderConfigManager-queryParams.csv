@@ -1,1 +1,1 @@
-oauth.cookie.max.age,propertylist,$location,oauth.cookie.login.timeout,apply,delete,action,post
+propertylist,$location,oauth.cookie.login.timeout,apply,action,post,oauth.cookie.max.age,delete

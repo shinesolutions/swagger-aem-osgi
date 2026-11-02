@@ -1,5 +1,4 @@
 .gitignore
-.openapi-generator-ignore
 .travis.yml
 README.md
 api/openapi.yaml
@@ -2909,5 +2908,4 @@ model_org_apache_sling_tracer_internal_log_tracer_properties.go
 model_org_apache_sling_xss_impl_xss_filter_impl_info.go
 model_org_apache_sling_xss_impl_xss_filter_impl_properties.go
 response.go
-test/api_configmgr_test.go
 utils.go

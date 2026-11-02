@@ -1,1 +1,1 @@
-jaas.defaultRealmName,propertylist,jaas.configProviderName,$location,apply,jaas.globalConfigPolicy,delete,action,post
+propertylist,$location,apply,jaas.configProviderName,action,post,delete,jaas.globalConfigPolicy,jaas.defaultRealmName

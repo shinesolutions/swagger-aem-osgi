@@ -1,1 +1,1 @@
-propertylist,$location,apply,action,post,auth.loginselector.defaultchangepwpage,auth.loginselector.changepw.mappings,auth.loginselector.handle,path,auth.loginselector.handle.all.extensions,delete,service.ranking,auth.loginselector.mappings,auth.loginselector.defaultloginpage
+propertylist,$location,apply,service.ranking,action,post,path,auth.loginselector.changepw.mappings,auth.loginselector.handle,auth.loginselector.defaultchangepwpage,auth.loginselector.mappings,auth.loginselector.defaultloginpage,delete,auth.loginselector.handle.all.extensions

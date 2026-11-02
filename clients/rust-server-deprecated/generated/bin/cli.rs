@@ -741,7 +741,7 @@ type ClientContext = swagger::make_context_ty!(
 #[derive(Parser, Debug)]
 #[clap(
     name = "Adobe Experience Manager OSGI config (AEM) API",
-    version = "1.0.0-pre.0",
+    version = "2.1.1-pre.0",
     about = "CLI access to Adobe Experience Manager OSGI config (AEM) API"
 )]
 struct Cli {

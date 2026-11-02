@@ -1,1 +1,1 @@
-propertylist,$location,apply,delete,action,post,cq.wcm.qrcode.servlet.whitelist
+propertylist,cq.wcm.qrcode.servlet.whitelist,$location,apply,action,post,delete

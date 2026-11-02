@@ -1,1 +1,1 @@
-propertylist,$location,enabled,apply,delete,configPath,action,fallbackPaths,configCollectionInheritancePropertyNames,post
+propertylist,$location,enabled,apply,action,fallbackPaths,post,configCollectionInheritancePropertyNames,delete,configPath

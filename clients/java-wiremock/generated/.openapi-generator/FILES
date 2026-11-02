@@ -1,3 +1,2 @@
-.openapi-generator-ignore
 pom.xml
 src/main/java/org/openapitools/mockserver/api/ConfigmgrApiMockServer.java

@@ -1,1 +1,1 @@
-propertylist,$location,apply,aem.instanceId,delete,ims.owningEntity,action,ims.serviceCode,post,oauth.configmanager.ims.configid
+propertylist,$location,apply,action,ims.serviceCode,post,ims.owningEntity,delete,oauth.configmanager.ims.configid,aem.instanceId

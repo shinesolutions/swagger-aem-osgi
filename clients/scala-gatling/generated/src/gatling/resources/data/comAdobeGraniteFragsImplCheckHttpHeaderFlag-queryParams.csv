@@ -1,1 +1,1 @@
-http.header.name,propertylist,$location,apply,delete,action,http.header.valuepattern,post,feature.name,feature.description
+propertylist,$location,apply,feature.name,action,feature.description,post,delete,http.header.valuepattern,http.header.name

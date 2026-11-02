@@ -1,1 +1,1 @@
-propertylist,$location,apply,delete,action,cq.commerce.pageeventlistener.enabled,post
+propertylist,$location,apply,action,post,delete,cq.commerce.pageeventlistener.enabled

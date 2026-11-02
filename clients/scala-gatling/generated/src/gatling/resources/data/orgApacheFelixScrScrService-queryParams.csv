@@ -1,1 +1,1 @@
-ds.lock.timeout.milliseconds,propertylist,$location,ds.global.extender,apply,ds.stop.timeout.milliseconds,ds.delayed.keepInstances,delete,action,ds.factory.enabled,ds.loglevel,post
+propertylist,ds.lock.timeout.milliseconds,$location,ds.global.extender,apply,ds.loglevel,action,ds.factory.enabled,post,ds.delayed.keepInstances,delete,ds.stop.timeout.milliseconds

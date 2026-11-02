@@ -1,1 +1,1 @@
-minPoolSize,propertylist,$location,apply,keepAliveTime,daemon,shutdownGraceful,shutdownWaitTime,priority,action,queueSize,post,blockPolicy,delete,name,maxThreadAge,maxPoolSize
+propertylist,minPoolSize,$location,apply,blockPolicy,action,post,shutdownGraceful,priority,queueSize,maxPoolSize,maxThreadAge,delete,name,shutdownWaitTime,keepAliveTime,daemon

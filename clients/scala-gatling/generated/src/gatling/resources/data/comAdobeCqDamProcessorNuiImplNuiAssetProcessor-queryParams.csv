@@ -1,1 +1,1 @@
-propertylist,$location,nuiEnabled,apply,nuiApiKey,delete,nuiServiceUrl,action,post
+propertylist,nuiEnabled,$location,apply,action,post,delete,nuiServiceUrl,nuiApiKey

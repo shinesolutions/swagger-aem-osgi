@@ -1,1 +1,1 @@
-propertylist,$location,apply,dispatcher.filter.allowed,dispatcher.filter.blocked,delete,action,hc.tags,post,dispatcher.address
+propertylist,$location,apply,action,post,dispatcher.address,delete,hc.tags,dispatcher.filter.blocked,dispatcher.filter.allowed

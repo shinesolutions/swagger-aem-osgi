@@ -1,4 +1,3 @@
-.openapi-generator-ignore
 apis/ConfigmgrApi.ts
 apis/index.ts
 docs/AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationInfo.md

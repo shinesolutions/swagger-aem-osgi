@@ -1,1 +1,1 @@
-filter.enable.safe.user.agents,propertylist,$location,filter.safe.user.agents,apply,filter.methods,filter.excluded.paths,delete,action,post
+propertylist,filter.enable.safe.user.agents,$location,filter.safe.user.agents,apply,action,post,delete,filter.methods,filter.excluded.paths

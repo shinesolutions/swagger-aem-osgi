@@ -1,1 +1,1 @@
-notify.onabort,notify.useronly,propertylist,notify.oncontainercomplete,$location,apply,delete,action,from.address,notify.oncomplete,post,host.prefix
+propertylist,$location,notify.onabort,notify.useronly,apply,action,post,host.prefix,delete,from.address,notify.oncomplete,notify.oncontainercomplete

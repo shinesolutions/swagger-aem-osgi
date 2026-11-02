@@ -1,1 +1,1 @@
-propertylist,$location,apply,numberOfRetriesAllowed,hc.name,delete,action,hc.tags,hc.mbean.name,post
+propertylist,hc.name,$location,apply,action,hc.mbean.name,post,delete,hc.tags,numberOfRetriesAllowed

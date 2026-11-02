@@ -1,1 +1,1 @@
-maxSavedActivities,propertylist,$location,enableActivityPurge,apply,delete,scheduler.expression,action,saveInterval,post,eventTypes
+maxSavedActivities,propertylist,$location,enableActivityPurge,apply,eventTypes,action,post,delete,saveInterval,scheduler.expression

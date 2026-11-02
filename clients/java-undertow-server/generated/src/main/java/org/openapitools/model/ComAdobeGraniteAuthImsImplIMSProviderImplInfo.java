@@ -3,7 +3,7 @@
  *
  * Swagger AEM OSGI is an OpenAPI specification for Adobe Experience Manager (AEM) OSGI Configurations API
  *
- * OpenAPI document version: 1.0.0-pre.0
+ * OpenAPI document version: 2.1.1-pre.0
  * Maintained by: opensource@shinesolutions.com
  *
  * AUTO-GENERATED FILE, DO NOT MODIFY!
@@ -21,7 +21,7 @@ import org.openapitools.model.ComAdobeGraniteAuthImsImplIMSProviderImplPropertie
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2026-10-07T12:53:42.280804918Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2026-11-02T01:12:48.146987212Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteAuthImsImplIMSProviderImplInfo   {
   
   private String pid;

@@ -1,4 +1,3 @@
-.openapi-generator-ignore
 README.md
 apis/ConfigmgrApi.js
 authentication.js
@@ -1454,5 +1453,4 @@ models/orgApacheSlingXssImplXSSFilterImplInfo.js
 models/orgApacheSlingXssImplXSSFilterImplProperties.js
 operations/actions.js
 package.json
-samples/ConfigmgrApi.js
 utils/utils.js

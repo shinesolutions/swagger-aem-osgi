@@ -1,1 +1,1 @@
-optout.headers,propertylist,$location,apply,delete,action,optout.cookies,optout.whitelist.cookies,post
+propertylist,$location,apply,optout.cookies,action,post,optout.headers,optout.whitelist.cookies,delete

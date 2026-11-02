@@ -1,1 +1,1 @@
-enable.multisession,propertylist,$location,apply,ids.cc.enable,enable.retry.scripterror,externalizer.domain.http,delete,action,enable.retry,post,externalizer.domain.cqhost
+enable.multisession,propertylist,$location,apply,action,post,externalizer.domain.cqhost,delete,enable.retry,enable.retry.scripterror,ids.cc.enable,externalizer.domain.http

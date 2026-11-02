@@ -1,1 +1,1 @@
-firewall.deserialization.whitelist,firewall.deserialization.diagnostics,propertylist,$location,apply,delete,firewall.deserialization.blacklist,action,post
+firewall.deserialization.diagnostics,propertylist,firewall.deserialization.whitelist,$location,apply,action,post,delete,firewall.deserialization.blacklist

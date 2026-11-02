@@ -1,8 +1,8 @@
 # swaggeraemosgi4j
 
 Adobe Experience Manager OSGI config (AEM) API
-- API version: 1.0.0-pre.0
-  - Build date: 2026-10-07T12:52:43.145179585Z[Etc/UTC]
+- API version: 2.1.1-pre.0
+  - Build date: 2026-11-02T01:11:37.488532246Z[Etc/UTC]
   - Generator version: 7.24.0
 
 Swagger AEM OSGI is an OpenAPI specification for Adobe Experience Manager (AEM) OSGI Configurations API
@@ -42,7 +42,7 @@ Add this dependency to your project's POM:
 <dependency>
   <groupId>com.shinesolutions</groupId>
   <artifactId>swaggeraemosgi4j</artifactId>
-  <version>1.0.0-pre.0</version>
+  <version>2.1.1-pre.0</version>
   <scope>compile</scope>
 </dependency>
 ```
@@ -58,7 +58,7 @@ Add this dependency to your project's build file:
   }
 
   dependencies {
-     implementation "com.shinesolutions:swaggeraemosgi4j:1.0.0-pre.0"
+     implementation "com.shinesolutions:swaggeraemosgi4j:2.1.1-pre.0"
   }
 ```
 
@@ -72,7 +72,7 @@ mvn clean package
 
 Then manually install the following JARs:
 
-* `target/swaggeraemosgi4j-1.0.0-pre.0.jar`
+* `target/swaggeraemosgi4j-2.1.1-pre.0.jar`
 * `target/lib/*.jar`
 
 ## Getting Started

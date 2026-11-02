@@ -1450,5 +1450,3 @@ src/gen/java/org/openapitools/model/OrgApacheSlingTracerInternalLogTracerInfo.ja
 src/gen/java/org/openapitools/model/OrgApacheSlingTracerInternalLogTracerProperties.java
 src/gen/java/org/openapitools/model/OrgApacheSlingXssImplXSSFilterImplInfo.java
 src/gen/java/org/openapitools/model/OrgApacheSlingXssImplXSSFilterImplProperties.java
-src/main/java/org/openapitools/api/impl/ConfigmgrApiServiceImpl.java
-src/test/java/org/openapitools/api/ConfigmgrApiTest.java

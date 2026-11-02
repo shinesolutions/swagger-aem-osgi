@@ -739,7 +739,7 @@ import javax.validation.Valid;
 import javax.ws.rs.core.Response;
 import javax.ws.rs.core.SecurityContext;
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSCXFCDIServerCodegen", date = "2026-10-07T12:54:05.120862681Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSCXFCDIServerCodegen", date = "2026-11-02T01:13:19.431214588Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public interface SystemApiService {
       public Response adaptiveFormAndInteractiveCommunicationWebChannelConfiguration(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean showPlaceholder, Integer maximumCacheEntries, String afScriptingCompatversion, Boolean makeFileNameUnique, Boolean generatingCompliantData, SecurityContext securityContext);
       public Response adaptiveFormAndInteractiveCommunicationWebChannelThemeConfigur(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> fontList, SecurityContext securityContext);

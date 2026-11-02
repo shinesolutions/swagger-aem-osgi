@@ -9,7 +9,7 @@ To see how to make this your own, look here:
 
 [README]((https://openapi-generator.tech))
 
-- API version: 1.0.0-pre.0
+- API version: 2.1.1-pre.0
 - Generator version: 7.24.0
 For more information, please visit [https://github.com/shinesolutions](https://github.com/shinesolutions)
 

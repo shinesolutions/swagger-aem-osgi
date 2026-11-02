@@ -1,5 +1,4 @@
 .gitignore
-.openapi-generator-ignore
 git_push.sh
 project.clj
 src/adobe_experience_manager_osgi_config_(aem)_api/api/configmgr.clj

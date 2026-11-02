@@ -1,1 +1,1 @@
-propertylist,monitoringQueueSize,$location,apply,action,cleanupDelay,post,digestAlgorithm,property.filters,useOffHeapMemory,memoryUnit,fileThreshold,delete,type,package.filters,name,format.target,tempFsFolder
+propertylist,$location,apply,action,monitoringQueueSize,post,format.target,property.filters,fileThreshold,useOffHeapMemory,memoryUnit,tempFsFolder,digestAlgorithm,delete,cleanupDelay,name,type,package.filters

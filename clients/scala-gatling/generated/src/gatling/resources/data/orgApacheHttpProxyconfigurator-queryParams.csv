@@ -1,1 +1,1 @@
-propertylist,proxy.port,$location,apply,proxy.exceptions,delete,action,proxy.password,post,proxy.host,proxy.user,proxy.enabled
+propertylist,$location,apply,proxy.port,action,proxy.host,post,proxy.enabled,proxy.user,delete,proxy.password,proxy.exceptions

@@ -1,4 +1,4 @@
-(defproject adobe-experience-manager-osgi-config-(aem)-api "1.0.0-pre.0"
+(defproject adobe-experience-manager-osgi-config-(aem)-api "2.1.1-pre.0"
   :description "Swagger AEM OSGI is an OpenAPI specification for Adobe Experience Manager (AEM) OSGI Configurations API"
   :url "https://github.com/shinesolutions"
   :dependencies [[org.clojure/clojure "1.9.0"]

@@ -1,1 +1,1 @@
-omnisearch.suggestion.spellcheck.require,propertylist,$location,apply,delete,action,omnisearch.suggestion.requiretext.min,post
+propertylist,$location,omnisearch.suggestion.spellcheck.require,apply,action,post,delete,omnisearch.suggestion.requiretext.min

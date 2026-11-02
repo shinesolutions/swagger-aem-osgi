@@ -1,1 +1,1 @@
-auditlogservlet.default.events.count,propertylist,$location,apply,delete,action,post,auditlogservlet.default.path
+auditlogservlet.default.events.count,propertylist,$location,apply,action,auditlogservlet.default.path,post,delete

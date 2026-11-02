@@ -1,1 +1,1 @@
-propertylist,$location,apply,delete,com.day.cq.dam.core.impl.io.SpecialFilesHandler.filepatters,action,post
+propertylist,$location,apply,action,post,delete,com.day.cq.dam.core.impl.io.SpecialFilesHandler.filepatters

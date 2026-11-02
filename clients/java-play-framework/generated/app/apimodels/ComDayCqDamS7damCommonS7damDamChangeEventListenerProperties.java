@@ -11,7 +11,7 @@ import javax.validation.Valid;
 /**
  * ComDayCqDamS7damCommonS7damDamChangeEventListenerProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-11-02T01:12:42.424903384Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class ComDayCqDamS7damCommonS7damDamChangeEventListenerProperties   {
   @JsonProperty("cq.dam.s7dam.damchangeeventlistener.enabled")

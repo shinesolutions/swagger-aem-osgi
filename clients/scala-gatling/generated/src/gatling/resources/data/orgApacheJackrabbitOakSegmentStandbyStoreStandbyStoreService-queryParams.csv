@@ -1,1 +1,1 @@
-secure,propertylist,$location,apply,action,mode,post,org.apache.sling.installer.configuration.persist,port,primary.host,primary.allowed-client-ip-ranges,delete,standby.autoclean,standby.readtimeout,interval
+secure,propertylist,$location,standby.readtimeout,apply,standby.autoclean,action,post,mode,primary.host,org.apache.sling.installer.configuration.persist,port,interval,delete,primary.allowed-client-ip-ranges

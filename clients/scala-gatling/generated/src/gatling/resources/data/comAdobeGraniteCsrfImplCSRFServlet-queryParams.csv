@@ -1,1 +1,1 @@
-sling.auth.requirements,propertylist,$location,apply,delete,action,post,csrf.token.expires.in
+propertylist,sling.auth.requirements,$location,apply,action,post,delete,csrf.token.expires.in

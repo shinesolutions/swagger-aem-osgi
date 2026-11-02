@@ -739,7 +739,7 @@ import javax.ws.rs.core.Response;
 import javax.ws.rs.core.SecurityContext;
 
 @RequestScoped
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-11-02T01:13:39.217979683Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class SystemApiServiceImpl implements SystemApiService {
       public Response adaptiveFormAndInteractiveCommunicationWebChannelConfiguration(Boolean post,Boolean apply,Boolean delete,String action,String $location,List<String> propertylist,Boolean showPlaceholder,Integer maximumCacheEntries,String afScriptingCompatversion,Boolean makeFileNameUnique,Boolean generatingCompliantData,SecurityContext securityContext)
       throws NotFoundException {

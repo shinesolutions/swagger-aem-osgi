@@ -1,1 +1,1 @@
-propertylist,$location,apply,history.requestFilter.excludedSelectors,delete,action,history.requestFilter.excludedExtensions,post
+propertylist,$location,apply,history.requestFilter.excludedExtensions,action,post,delete,history.requestFilter.excludedSelectors

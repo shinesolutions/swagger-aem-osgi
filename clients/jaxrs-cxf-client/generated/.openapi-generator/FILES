@@ -1,4 +1,3 @@
-.openapi-generator-ignore
 pom.xml
 src/gen/java/org/openapitools/api/ConfigmgrApi.java
 src/gen/java/org/openapitools/model/AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationInfo.java
@@ -1450,4 +1449,3 @@ src/gen/java/org/openapitools/model/OrgApacheSlingTracerInternalLogTracerInfo.ja
 src/gen/java/org/openapitools/model/OrgApacheSlingTracerInternalLogTracerProperties.java
 src/gen/java/org/openapitools/model/OrgApacheSlingXssImplXSSFilterImplInfo.java
 src/gen/java/org/openapitools/model/OrgApacheSlingXssImplXSSFilterImplProperties.java
-src/test/java/org/openapitools/api/ConfigmgrApiTest.java

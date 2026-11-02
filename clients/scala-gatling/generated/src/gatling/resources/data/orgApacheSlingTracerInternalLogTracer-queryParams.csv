@@ -1,1 +1,1 @@
-propertylist,$location,apply,recordingCompressionEnabled,action,gzipResponse,post,enabled,servletEnabled,delete,recordingCacheDurationInSecs,recordingCacheSizeInMB,tracerSets
+propertylist,$location,apply,recordingCacheSizeInMB,action,post,recordingCompressionEnabled,enabled,gzipResponse,delete,tracerSets,recordingCacheDurationInSecs,servletEnabled

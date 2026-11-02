@@ -1,1 +1,1 @@
-propertylist,$location,fieldWhitelist,apply,delete,action,attachmentTypeBlacklist,post
+fieldWhitelist,propertylist,$location,apply,action,attachmentTypeBlacklist,post,delete

@@ -1,1 +1,1 @@
-disabled.cipher.suites,propertylist,$location,apply,delete,action,enabled.cipher.suites,post
+disabled.cipher.suites,propertylist,$location,apply,action,post,delete,enabled.cipher.suites

@@ -1,1 +1,1 @@
-expression,propertylist,$location,apply,language.extension,hc.name,delete,action,hc.tags,hc.mbean.name,post
+propertylist,hc.name,$location,apply,expression,action,hc.mbean.name,post,delete,hc.tags,language.extension

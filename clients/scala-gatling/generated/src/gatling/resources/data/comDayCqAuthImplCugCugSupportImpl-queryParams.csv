@@ -1,1 +1,1 @@
-propertylist,$location,cug.principals.replacement,apply,cug.principals.regex,delete,action,cug.exempted.principals,cug.enabled,post
+propertylist,$location,apply,cug.principals.replacement,action,post,delete,cug.enabled,cug.exempted.principals,cug.principals.regex

@@ -1,1 +1,1 @@
-propertylist,cq.analytics.testandtarget.accountoptionsupdater.enabled,$location,apply,delete,action,post
+propertylist,$location,apply,cq.analytics.testandtarget.accountoptionsupdater.enabled,action,post,delete

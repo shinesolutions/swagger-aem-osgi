@@ -1,1 +1,1 @@
-propertylist,$location,apply,hc.name,package.names,delete,action,hc.tags,hc.mbean.name,post
+propertylist,hc.name,$location,apply,action,hc.mbean.name,post,delete,hc.tags,package.names

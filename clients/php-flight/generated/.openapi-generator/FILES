@@ -1,5 +1,4 @@
 .gitignore
-.openapi-generator-ignore
 Api/AbstractConfigmgrApi.php
 Model/AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationInfo.php
 Model/AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationProperties.php

@@ -1,1 +1,1 @@
-propertylist,$location,apply,delete,action,indexing.warn.threshold,hc.tags,post,indexing.critical.threshold
+indexing.critical.threshold,propertylist,$location,apply,action,post,delete,indexing.warn.threshold,hc.tags

@@ -1,1 +1,1 @@
-query.aggregation,propertylist,$location,apply,delete,action,post
+propertylist,$location,query.aggregation,apply,action,post,delete

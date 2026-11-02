@@ -26,7 +26,7 @@ class SpringDocConfiguration {
                             .url("https://github.com/shinesolutions")
                             .email("opensource@shinesolutions.com")
                     )
-                    .version("1.0.0-pre.0")
+                    .version("2.1.1-pre.0")
             )
             .components(
                 Components()

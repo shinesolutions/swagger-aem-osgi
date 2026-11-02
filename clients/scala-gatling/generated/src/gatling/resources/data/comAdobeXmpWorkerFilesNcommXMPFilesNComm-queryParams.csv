@@ -1,1 +1,1 @@
-maxRequests,propertylist,$location,requestTimeout,apply,delete,maxConnections,action,logDir,post
+maxRequests,propertylist,$location,apply,requestTimeout,action,post,delete,maxConnections,logDir

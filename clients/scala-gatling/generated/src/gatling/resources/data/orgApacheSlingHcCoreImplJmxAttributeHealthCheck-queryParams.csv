@@ -1,1 +1,1 @@
-propertylist,$location,mbean.name,apply,hc.name,delete,action,hc.tags,hc.mbean.name,attribute.value.constraint,post,attribute.name
+mbean.name,propertylist,hc.name,$location,apply,action,hc.mbean.name,post,attribute.value.constraint,delete,attribute.name,hc.tags

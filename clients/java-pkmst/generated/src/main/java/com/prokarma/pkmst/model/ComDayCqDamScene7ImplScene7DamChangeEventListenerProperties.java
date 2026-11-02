@@ -17,7 +17,7 @@ import io.swagger.annotations.ApiModelProperty;
  * ComDayCqDamScene7ImplScene7DamChangeEventListenerProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-11-02T01:12:36.650816212Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqDamScene7ImplScene7DamChangeEventListenerProperties   {
   @JsonProperty("cq.dam.scene7.damchangeeventlistener.enabled")
   private ConfigNodePropertyBoolean cqDamScene7DamchangeeventlistenerEnabled;

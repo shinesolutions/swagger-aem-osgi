@@ -1,1 +1,1 @@
-propertylist,$location,apply,smtp.host,action,smtp.user,debug.email,post,smtp.password,smtp.ssl,smtp.port,delete,from.address,smtp.starttls
+propertylist,$location,apply,action,debug.email,post,smtp.password,from.address,smtp.user,smtp.starttls,smtp.host,smtp.port,smtp.ssl,delete

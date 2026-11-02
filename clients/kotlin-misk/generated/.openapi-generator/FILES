@@ -1,4 +1,3 @@
-.openapi-generator-ignore
 README.md
 build.gradle.kts
 docs/AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationInfo.md
@@ -2903,4 +2902,3 @@ src/main/kotlin/org/openapitools/server/api/model/OrgApacheSlingTracerInternalLo
 src/main/kotlin/org/openapitools/server/api/model/OrgApacheSlingTracerInternalLogTracerProperties.kt
 src/main/kotlin/org/openapitools/server/api/model/OrgApacheSlingXssImplXSSFilterImplInfo.kt
 src/main/kotlin/org/openapitools/server/api/model/OrgApacheSlingXssImplXSSFilterImplProperties.kt
-src/test/kotlin/org/openapitools/server/api/api/ConfigmgrApiTest.kt

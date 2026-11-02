@@ -1,1 +1,1 @@
-propertylist,cache.on,$location,apply,solr.commit,cache.size,action,post,cache.ttl,concurrency.level,cache.start.size,delete,solr.zk.timeout
+propertylist,$location,apply,cache.on,action,post,cache.ttl,cache.size,cache.start.size,concurrency.level,solr.zk.timeout,delete,solr.commit

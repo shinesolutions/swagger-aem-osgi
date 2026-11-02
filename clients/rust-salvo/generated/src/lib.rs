@@ -15,7 +15,7 @@
 )]
 
 pub const BASE_PATH: &str = "";
-pub const API_VERSION: &str = "1.0.0-pre.0";
+pub const API_VERSION: &str = "2.1.1-pre.0";
 
 pub mod handlers;
 pub mod models;

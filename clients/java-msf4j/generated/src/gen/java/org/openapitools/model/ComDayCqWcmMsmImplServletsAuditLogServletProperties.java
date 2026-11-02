@@ -12,7 +12,7 @@ import org.openapitools.model.ConfigNodePropertyString;
 /**
  * ComDayCqWcmMsmImplServletsAuditLogServletProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaMSF4JServerCodegen", date = "2026-10-07T12:53:29.980508721Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaMSF4JServerCodegen", date = "2026-11-02T01:12:30.814919523Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqWcmMsmImplServletsAuditLogServletProperties   {
   @JsonProperty("auditlogservlet.default.events.count")
   private ConfigNodePropertyInteger auditlogservletDefaultEventsCount;

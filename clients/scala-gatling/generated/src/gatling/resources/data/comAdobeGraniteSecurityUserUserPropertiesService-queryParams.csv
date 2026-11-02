@@ -1,1 +1,1 @@
-propertylist,$location,adapter.condition,apply,granite.userproperties.resourcetypes,delete,action,post,granite.userproperties.nodetypes
+propertylist,adapter.condition,granite.userproperties.resourcetypes,$location,granite.userproperties.nodetypes,apply,action,post,delete

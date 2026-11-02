@@ -1,1 +1,1 @@
-propertylist,$location,apply,purgeActive,purgeCompleted,saveThreshold,delete,activeAge,action,post,completedAge
+saveThreshold,propertylist,$location,apply,action,completedAge,post,delete,activeAge,purgeCompleted,purgeActive

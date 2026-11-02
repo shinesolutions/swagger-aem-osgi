@@ -1,1 +1,1 @@
-propertylist,$location,payload.move.white.list,apply,delete,action,payload.move.handle.from.workflow.process,post
+propertylist,$location,payload.move.white.list,apply,action,post,delete,payload.move.handle.from.workflow.process

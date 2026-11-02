@@ -1,1 +1,1 @@
-cq.social.content.fragments.services.enabled,cq.social.content.fragments.services.waitTimeSeconds,propertylist,$location,apply,delete,action,post
+cq.social.content.fragments.services.enabled,propertylist,$location,apply,action,post,delete,cq.social.content.fragments.services.waitTimeSeconds

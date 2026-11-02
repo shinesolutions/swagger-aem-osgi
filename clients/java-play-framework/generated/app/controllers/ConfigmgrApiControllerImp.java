@@ -732,7 +732,7 @@ import java.io.FileInputStream;
 import play.libs.Files.TemporaryFile;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-11-02T01:12:42.424903384Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ConfigmgrApiControllerImp extends ConfigmgrApiControllerImpInterface {
     @Override
     public AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationInfo adaptiveFormAndInteractiveCommunicationWebChannelConfiguration(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean showPlaceholder, Integer maximumCacheEntries, String afScriptingCompatversion, Boolean makeFileNameUnique, Boolean generatingCompliantData) throws Exception {

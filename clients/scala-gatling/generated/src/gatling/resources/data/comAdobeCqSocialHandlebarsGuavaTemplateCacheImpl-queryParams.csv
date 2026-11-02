@@ -1,1 +1,1 @@
-parameter.guava.cache.enabled,propertylist,$location,apply,parameter.guava.cache.params,delete,action,service.ranking,post,parameter.guava.cache.reload
+parameter.guava.cache.reload,propertylist,$location,apply,parameter.guava.cache.enabled,service.ranking,action,post,delete,parameter.guava.cache.params

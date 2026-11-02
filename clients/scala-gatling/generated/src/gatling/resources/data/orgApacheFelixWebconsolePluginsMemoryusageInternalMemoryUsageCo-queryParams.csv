@@ -1,1 +1,1 @@
-propertylist,$location,apply,felix.memoryusage.dump.interval,delete,action,felix.memoryusage.dump.location,post,felix.memoryusage.dump.threshold
+propertylist,$location,apply,action,post,felix.memoryusage.dump.threshold,delete,felix.memoryusage.dump.location,felix.memoryusage.dump.interval

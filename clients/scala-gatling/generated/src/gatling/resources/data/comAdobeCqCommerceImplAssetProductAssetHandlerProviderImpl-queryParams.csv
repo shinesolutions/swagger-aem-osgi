@@ -1,1 +1,1 @@
-propertylist,$location,apply,cq.commerce.asset.handler.fallback,delete,action,post
+propertylist,$location,apply,action,post,delete,cq.commerce.asset.handler.fallback

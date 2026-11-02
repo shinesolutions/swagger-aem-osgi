@@ -1,1 +1,1 @@
-retry.interval.to.whitelist,propertylist,$location,process.label,apply,socket.timeout,connection.use.max,delete,connect.timeout,action,max.errors.to.blacklist,post
+propertylist,retry.interval.to.whitelist,$location,process.label,apply,socket.timeout,action,max.errors.to.blacklist,post,delete,connect.timeout,connection.use.max

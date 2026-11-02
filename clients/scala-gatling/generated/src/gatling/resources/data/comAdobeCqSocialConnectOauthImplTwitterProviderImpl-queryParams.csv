@@ -1,1 +1,1 @@
-provider.config.twitter.params,propertylist,oauth.cloud.config.root,$location,apply,action,provider.config.root,post,provider.config.user.folder,oauth.provider.id,provider.config.refresh.userdata.enabled,delete,provider.config.twitter.enable.params
+propertylist,provider.config.twitter.params,$location,apply,action,post,provider.config.twitter.enable.params,oauth.cloud.config.root,provider.config.user.folder,delete,provider.config.refresh.userdata.enabled,provider.config.root,oauth.provider.id

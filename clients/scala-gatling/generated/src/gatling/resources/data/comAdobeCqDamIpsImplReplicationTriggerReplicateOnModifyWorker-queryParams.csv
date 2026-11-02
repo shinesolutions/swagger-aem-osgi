@@ -1,1 +1,1 @@
-dmreplicateonmodify.forcesyncdeletes,propertylist,$location,apply,delete,action,dmreplicateonmodify.enabled,post
+propertylist,dmreplicateonmodify.forcesyncdeletes,$location,apply,action,post,delete,dmreplicateonmodify.enabled

@@ -13,7 +13,7 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaInflectorServerCodegen", date = "2026-10-07T12:53:12.340274163Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaInflectorServerCodegen", date = "2026-11-02T01:12:10.883402558Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqDamScene7ImplScene7DamChangeEventListenerProperties   {
   @JsonProperty("cq.dam.scene7.damchangeeventlistener.enabled")
   private ConfigNodePropertyBoolean cqDamScene7DamchangeeventlistenerEnabled;

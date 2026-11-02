@@ -1,4 +1,3 @@
-.openapi-generator-ignore
 openapi2graphql/api/configmgr_api.graphql
 openapi2graphql/model/adaptive_form_and_interactive_communication_web_channel_configuration_info.graphql
 openapi2graphql/model/adaptive_form_and_interactive_communication_web_channel_configuration_properties.graphql

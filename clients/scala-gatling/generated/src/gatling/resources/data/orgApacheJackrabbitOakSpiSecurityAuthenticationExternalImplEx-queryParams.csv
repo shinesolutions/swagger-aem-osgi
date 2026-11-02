@@ -1,1 +1,1 @@
-jaas.controlFlag,propertylist,$location,apply,sync.handlerName,delete,action,idp.name,post,jaas.ranking,jaas.realmName
+propertylist,$location,apply,jaas.controlFlag,jaas.ranking,jaas.realmName,action,post,delete,idp.name,sync.handlerName

@@ -1,1 +1,1 @@
-propertylist,$location,apply,sling.servlet.methods,cq.dam.enable.anonymous,delete,action,sling.servlet.paths,post
+propertylist,$location,apply,sling.servlet.methods,sling.servlet.paths,action,post,delete,cq.dam.enable.anonymous

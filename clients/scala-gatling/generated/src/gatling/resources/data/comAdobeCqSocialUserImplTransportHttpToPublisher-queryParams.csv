@@ -1,1 +1,1 @@
-disabled.cipher.suites,propertylist,context.path,$location,apply,delete,action,enabled.cipher.suites,post,agent.configuration,enable
+disabled.cipher.suites,propertylist,context.path,$location,apply,action,post,enable,agent.configuration,delete,enabled.cipher.suites

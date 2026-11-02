@@ -1,1 +1,1 @@
-versionmanager.createVersionOnActivation,propertylist,$location,apply,versionmanager.maxAgeDays,versionmanager.maxNumberVersions,action,post,versionmanager.ivPaths,versionmanager.purgePaths,versionmanager.purgingEnabled,delete,versionmanager.minNumberVersions
+propertylist,$location,apply,versionmanager.createVersionOnActivation,action,post,versionmanager.purgingEnabled,versionmanager.maxAgeDays,versionmanager.maxNumberVersions,versionmanager.purgePaths,versionmanager.ivPaths,delete,versionmanager.minNumberVersions

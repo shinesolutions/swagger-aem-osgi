@@ -1,1 +1,1 @@
-propertylist,cq.dam.scene7.uploadservice.activejobtimeout.label,$location,apply,cq.dam.scene7.uploadservice.connectionmaxperroute.label,delete,action,post
+propertylist,$location,apply,cq.dam.scene7.uploadservice.activejobtimeout.label,action,post,delete,cq.dam.scene7.uploadservice.connectionmaxperroute.label

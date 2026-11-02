@@ -1,1 +1,1 @@
-propertylist,$location,apply,cq.social.reporting.analytics.polling.importer.pageSize,delete,cq.social.reporting.analytics.polling.importer.interval,action,post
+propertylist,$location,apply,action,post,delete,cq.social.reporting.analytics.polling.importer.interval,cq.social.reporting.analytics.polling.importer.pageSize

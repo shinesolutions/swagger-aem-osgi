@@ -1,1 +1,1 @@
-propertylist,offloading.cleanup.payload,$location,apply,delete,offloading.transporter,action,post
+propertylist,$location,apply,offloading.cleanup.payload,action,post,delete,offloading.transporter

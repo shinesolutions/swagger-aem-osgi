@@ -1,5 +1,4 @@
 .gitignore
-.openapi-generator-ignore
 apis/ConfigmgrApi.ts
 apis/index.ts
 index.ts

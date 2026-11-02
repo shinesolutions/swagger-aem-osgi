@@ -1,1 +1,1 @@
-propertylist,$location,apply,minWaitBetweenRetries,delete,maxWaitTime,action,post
+propertylist,$location,apply,action,post,maxWaitTime,delete,minWaitBetweenRetries

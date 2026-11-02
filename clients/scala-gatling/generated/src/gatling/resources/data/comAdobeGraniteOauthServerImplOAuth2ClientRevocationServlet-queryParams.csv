@@ -1,1 +1,1 @@
-propertylist,$location,apply,delete,action,post,oauth.client.revocation.active
+propertylist,oauth.client.revocation.active,$location,apply,action,post,delete

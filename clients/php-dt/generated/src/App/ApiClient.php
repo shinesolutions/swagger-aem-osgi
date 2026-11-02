@@ -11,7 +11,7 @@ use Psr\Http\Message\ResponseInterface;
 /**
  * Adobe Experience Manager OSGI config (AEM) API
  * Swagger AEM OSGI is an OpenAPI specification for Adobe Experience Manager (AEM) OSGI Configurations API
- * The version of the OpenAPI document: 1.0.0-pre.0
+ * The version of the OpenAPI document: 2.1.1-pre.0
  */
 class ApiClient extends OAGAC\AbstractApiClient
 {

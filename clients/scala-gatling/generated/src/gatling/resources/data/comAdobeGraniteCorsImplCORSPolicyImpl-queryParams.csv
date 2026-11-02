@@ -1,1 +1,1 @@
-supportedheaders,supportscredentials,propertylist,$location,apply,supportedmethods,action,alloworigin,post,allowedpaths,maxage,exposedheaders,delete,alloworiginregexp
+propertylist,supportedheaders,$location,supportscredentials,apply,action,post,allowedpaths,alloworiginregexp,alloworigin,exposedheaders,maxage,delete,supportedmethods

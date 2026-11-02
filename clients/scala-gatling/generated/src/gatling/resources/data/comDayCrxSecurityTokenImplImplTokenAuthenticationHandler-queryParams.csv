@@ -1,1 +1,1 @@
-propertylist,$location,apply,path,delete,action,post,token.encapsulated,token.required.attr,token.alternate.url,skip.token.refresh
+propertylist,$location,apply,action,post,token.required.attr,token.encapsulated,delete,token.alternate.url,skip.token.refresh,path

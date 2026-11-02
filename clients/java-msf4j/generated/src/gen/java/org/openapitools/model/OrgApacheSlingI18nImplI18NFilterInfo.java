@@ -11,7 +11,7 @@ import org.openapitools.model.OrgApacheSlingI18nImplI18NFilterProperties;
 /**
  * OrgApacheSlingI18nImplI18NFilterInfo
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaMSF4JServerCodegen", date = "2026-10-07T12:53:29.980508721Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaMSF4JServerCodegen", date = "2026-11-02T01:12:30.814919523Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingI18nImplI18NFilterInfo   {
   @JsonProperty("pid")
   private String pid;

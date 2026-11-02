@@ -1,1 +1,1 @@
-cleanup.period,propertylist,$location,apply,job.consumermanager.disableDistribution,delete,action,post,startup.delay
+cleanup.period,propertylist,$location,startup.delay,apply,action,post,delete,job.consumermanager.disableDistribution

@@ -1,1 +1,1 @@
-propertylist,org.apache.sling.commons.log.pattern,$location,org.apache.sling.commons.log.additiv,apply,delete,action,org.apache.sling.commons.log.level,post,org.apache.sling.commons.log.file,org.apache.sling.commons.log.names
+propertylist,$location,org.apache.sling.commons.log.pattern,apply,org.apache.sling.commons.log.file,action,org.apache.sling.commons.log.level,post,org.apache.sling.commons.log.names,delete,org.apache.sling.commons.log.additiv

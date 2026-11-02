@@ -1,1 +1,1 @@
-propertylist,$location,cq.store.listener.additionalStorePaths,apply,delete,action,post
+cq.store.listener.additionalStorePaths,propertylist,$location,apply,action,post,delete

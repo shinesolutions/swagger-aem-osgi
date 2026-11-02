@@ -1,1 +1,1 @@
-propertylist,$location,apply,sling.servlet.selectors,sling.servlet.methods,sling.servlet.resourceTypes,delete,action,service.name,forms.formchooserservlet.advansesearch.require,post
+propertylist,$location,apply,sling.servlet.selectors,sling.servlet.methods,action,post,delete,service.name,forms.formchooserservlet.advansesearch.require,sling.servlet.resourceTypes

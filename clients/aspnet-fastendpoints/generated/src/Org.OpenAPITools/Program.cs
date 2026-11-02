@@ -15,7 +15,7 @@ builder.Services
             s.Description = """
 Swagger AEM OSGI is an OpenAPI specification for Adobe Experience Manager (AEM) OSGI Configurations API
 """;
-            s.Version = "1.0.0-pre.0";
+            s.Version = "2.1.1-pre.0";
         };
         o.AutoTagPathSegmentIndex = 0;
     })

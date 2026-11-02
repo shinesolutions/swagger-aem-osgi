@@ -1,1 +1,1 @@
-propertylist,enableAsyncObserver,$location,apply,delete,action,includedPaths,observerQueueSize,post
+propertylist,$location,apply,enableAsyncObserver,action,includedPaths,post,delete,observerQueueSize

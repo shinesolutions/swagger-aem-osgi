@@ -1,1 +1,1 @@
-priority,propertylist,group.listing.pagination.enable,page.size,$location,apply,group.listing.lazyloading.enable,delete,action,post
+propertylist,page.size,$location,priority,apply,action,post,delete,group.listing.lazyloading.enable,group.listing.pagination.enable

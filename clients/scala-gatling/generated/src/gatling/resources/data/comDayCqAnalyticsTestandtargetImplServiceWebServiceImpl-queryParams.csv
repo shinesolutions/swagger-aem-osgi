@@ -1,1 +1,1 @@
-endpointUri,propertylist,$location,socketTimeout,apply,connectionTimeout,delete,action,post
+endpointUri,propertylist,$location,apply,action,post,delete,connectionTimeout,socketTimeout

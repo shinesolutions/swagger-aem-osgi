@@ -1,1 +1,1 @@
-propertylist,$location,contentsync.fallback.updateuser,apply,delete,action,contentsync.fallback.authorizable,post
+propertylist,$location,apply,action,post,contentsync.fallback.authorizable,delete,contentsync.fallback.updateuser

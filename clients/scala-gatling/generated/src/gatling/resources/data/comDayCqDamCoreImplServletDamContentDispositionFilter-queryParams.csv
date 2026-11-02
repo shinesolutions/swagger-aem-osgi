@@ -1,1 +1,1 @@
-cq.dam.empty.mime,propertylist,$location,apply,delete,action,cq.mime.type.blacklist,post
+propertylist,cq.dam.empty.mime,$location,apply,action,post,delete,cq.mime.type.blacklist

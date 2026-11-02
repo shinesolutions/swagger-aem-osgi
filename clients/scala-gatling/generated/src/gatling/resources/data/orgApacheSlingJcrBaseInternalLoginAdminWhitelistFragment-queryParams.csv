@@ -1,1 +1,1 @@
-whitelist.bundles,propertylist,$location,apply,delete,action,post,whitelist.name
+whitelist.name,whitelist.bundles,propertylist,$location,apply,action,post,delete

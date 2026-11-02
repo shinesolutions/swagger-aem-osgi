@@ -1,1 +1,1 @@
-max.bounce.count,propertylist,sender.host,$location,apply,delete,action,from.address,post
+max.bounce.count,propertylist,$location,apply,sender.host,action,post,delete,from.address

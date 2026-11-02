@@ -1,1 +1,1 @@
-propertylist,cq.dam.batch.collection.maxcollections,$location,apply,cq.dam.batch.collection.properties,delete,action,post
+propertylist,$location,apply,cq.dam.batch.collection.maxcollections,action,post,delete,cq.dam.batch.collection.properties

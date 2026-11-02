@@ -1,1 +1,1 @@
-propertylist,com.adobe.granite.httpcache.file.documentRoot,com.adobe.granite.httpcache.file.includeHost,$location,apply,delete,action,post
+propertylist,$location,apply,com.adobe.granite.httpcache.file.documentRoot,action,post,com.adobe.granite.httpcache.file.includeHost,delete

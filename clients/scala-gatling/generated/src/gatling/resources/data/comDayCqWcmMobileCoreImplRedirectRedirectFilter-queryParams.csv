@@ -1,1 +1,1 @@
-redirect.enabled,redirect.stats.enabled,propertylist,$location,apply,delete,action,redirect.extensions,redirect.paths,post
+propertylist,redirect.enabled,$location,apply,redirect.stats.enabled,action,post,delete,redirect.extensions,redirect.paths

@@ -1,1 +1,1 @@
-propertylist,$location,MaxRetry,fieldWhitelist,apply,delete,action,attachmentTypeBlacklist,post
+MaxRetry,fieldWhitelist,propertylist,$location,apply,action,attachmentTypeBlacklist,post,delete

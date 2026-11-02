@@ -1,1 +1,1 @@
-cq.dam.batch.metadata.asset.default,propertylist,$location,apply,cq.dam.batch.metadata.maxresources,delete,action,post,cq.dam.batch.metadata.collection.default
+propertylist,$location,apply,cq.dam.batch.metadata.asset.default,cq.dam.batch.metadata.collection.default,action,post,cq.dam.batch.metadata.maxresources,delete

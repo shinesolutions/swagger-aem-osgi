@@ -1,1 +1,1 @@
-cq.dam.batch.collections.limit,propertylist,$location,apply,delete,action,post,cq.dam.batch.collections.properties
+propertylist,$location,cq.dam.batch.collections.limit,apply,action,post,cq.dam.batch.collections.properties,delete

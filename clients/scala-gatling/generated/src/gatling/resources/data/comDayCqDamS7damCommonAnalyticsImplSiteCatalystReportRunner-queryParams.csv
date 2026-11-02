@@ -1,1 +1,1 @@
-propertylist,$location,apply,delete,scheduler.expression,action,scheduler.concurrent,post
+propertylist,$location,apply,scheduler.concurrent,action,post,delete,scheduler.expression

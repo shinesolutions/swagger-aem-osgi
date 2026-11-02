@@ -1,1 +1,1 @@
-jmxdomain,propertylist,script.platform,$location,apply,script.filename,script.path,delete,action,post,script.display,interval
+jmxdomain,propertylist,$location,apply,script.platform,action,post,script.display,interval,delete,script.filename,script.path

@@ -1,1 +1,1 @@
-repconf.minofhour,repconf.snapshotuser,propertylist,$location,repconf.timezone,apply,action,repconf.repdir,repconf.maxrows,post,repconf.enforcesnapshotuser,repconf.hourofday,delete,repconf.snapshots,repconf.fakedata,repconf.locale
+propertylist,$location,apply,repconf.minofhour,repconf.snapshotuser,repconf.locale,action,post,repconf.repdir,repconf.hourofday,repconf.enforcesnapshotuser,delete,repconf.maxrows,repconf.fakedata,repconf.timezone,repconf.snapshots

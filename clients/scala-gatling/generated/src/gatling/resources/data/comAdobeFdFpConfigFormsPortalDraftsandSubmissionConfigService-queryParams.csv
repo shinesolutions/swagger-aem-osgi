@@ -1,1 +1,1 @@
-propertylist,$location,apply,draft.data.service,submit.data.service,action,post,pendingSign.metadata.service,pendingSign.data.service,portal.outboxes,draft.metadata.service,delete,submit.metadata.service
+propertylist,$location,apply,submit.metadata.service,action,post,draft.data.service,draft.metadata.service,pendingSign.metadata.service,delete,submit.data.service,portal.outboxes,pendingSign.data.service

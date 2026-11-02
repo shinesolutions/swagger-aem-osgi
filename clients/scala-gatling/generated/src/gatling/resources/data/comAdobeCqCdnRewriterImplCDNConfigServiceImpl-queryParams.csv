@@ -1,1 +1,1 @@
-cdn.config.enable.rewriting,propertylist,cdn.config.cdnttl,$location,apply,cdn.config.distribution.domain,cdn.config.path.prefixes,delete,action,post,cdn.config.application.protocol
+propertylist,cdn.config.enable.rewriting,$location,apply,cdn.config.distribution.domain,cdn.config.application.protocol,action,cdn.config.cdnttl,post,delete,cdn.config.path.prefixes

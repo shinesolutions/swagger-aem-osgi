@@ -1,1 +1,1 @@
-propertylist,serviceName,$location,apply,path,deep,delete,action,name,ignoredPathsPatterns,post
+propertylist,serviceName,$location,apply,action,ignoredPathsPatterns,post,delete,name,deep,path

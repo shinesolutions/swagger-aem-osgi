@@ -1,1 +1,1 @@
-propertylist,$location,apply,keepAliveTime,action,event.filter,poolSize,queueSize,post,delete,event.topics,translate.listener.type,translate.property.list,maxPoolSize
+propertylist,$location,apply,action,post,event.filter,event.topics,poolSize,queueSize,maxPoolSize,delete,translate.listener.type,translate.property.list,keepAliveTime

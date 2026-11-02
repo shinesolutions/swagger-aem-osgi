@@ -1,1 +1,1 @@
-propertylist,$location,apply,delete,action,allowed.paths,post,cq.analytics.saint.exporter.pagesize
+propertylist,$location,apply,cq.analytics.saint.exporter.pagesize,action,allowed.paths,post,delete

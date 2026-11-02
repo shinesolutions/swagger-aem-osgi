@@ -1,1 +1,1 @@
-propertylist,$location,apply,externalizer.contextpath,delete,action,externalizer.host,post,externalizer.domains,externalizer.encodedpath
+propertylist,$location,apply,externalizer.domains,action,externalizer.host,post,delete,externalizer.encodedpath,externalizer.contextpath

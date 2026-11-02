@@ -1,1 +1,1 @@
-maxThreadPoolSize,propertylist,$location,apply,minThreadPoolSize,delete,action,post
+maxThreadPoolSize,propertylist,$location,apply,action,post,delete,minThreadPoolSize

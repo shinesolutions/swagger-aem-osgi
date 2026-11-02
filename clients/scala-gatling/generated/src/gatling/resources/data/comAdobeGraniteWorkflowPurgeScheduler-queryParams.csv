@@ -1,1 +1,1 @@
-scheduledpurge.workflowStatus,propertylist,$location,apply,scheduledpurge.name,delete,action,post,scheduledpurge.daysold,scheduledpurge.modelIds
+propertylist,scheduledpurge.workflowStatus,$location,apply,scheduledpurge.name,action,scheduledpurge.daysold,post,delete,scheduledpurge.modelIds

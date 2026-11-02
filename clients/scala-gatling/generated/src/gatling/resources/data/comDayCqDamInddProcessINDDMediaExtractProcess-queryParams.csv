@@ -1,1 +1,1 @@
-ids.job.decoupled,propertylist,ids.job.workflow.model,$location,process.label,apply,delete,action,post,cq.dam.indd.pages.regex
+propertylist,cq.dam.indd.pages.regex,$location,process.label,apply,ids.job.decoupled,ids.job.workflow.model,action,post,delete

@@ -5,7 +5,7 @@
   <packaging>war</packaging>
   <name>openapi-cxf-server</name>
   <description>Swagger AEM OSGI is an OpenAPI specification for Adobe Experience Manager (AEM) OSGI Configurations API</description>
-  <version>1.0.0-pre.0</version>
+  <version>2.1.1-pre.0</version>
   <build>
     <sourceDirectory>src/main/java</sourceDirectory>
     <plugins>

@@ -11,7 +11,7 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 /**
  * ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaMSF4JServerCodegen", date = "2026-10-07T12:53:29.980508721Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaMSF4JServerCodegen", date = "2026-11-02T01:12:30.814919523Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties   {
   @JsonProperty("cq.dam.s7dam.videoproxyclientservice.multipartupload.minsize.name")
   private ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceMultipartuploadMinsizeName;

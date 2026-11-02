@@ -1,1 +1,1 @@
-RandomAccessUrlTimeout,propertylist,$location,apply,MaxMessageSize,MaxRenderRgnPixels,delete,AllowRemoteAccess,action,TcpPort,post,WorkerThreads
+propertylist,RandomAccessUrlTimeout,$location,MaxRenderRgnPixels,apply,action,post,WorkerThreads,delete,AllowRemoteAccess,TcpPort,MaxMessageSize

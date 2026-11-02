@@ -735,7 +735,7 @@ import javax.ws.rs.core.Response;
 import javax.ws.rs.core.SecurityContext;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJerseyServerCodegen", date = "2026-10-07T12:54:10.605414884Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJerseyServerCodegen", date = "2026-11-02T01:13:25.700259871Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class SystemApiServiceImpl extends SystemApiService {
     @Override
     public Response adaptiveFormAndInteractiveCommunicationWebChannelConfiguration(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean showPlaceholder, Integer maximumCacheEntries, String afScriptingCompatversion, Boolean makeFileNameUnique, Boolean generatingCompliantData, SecurityContext securityContext) throws NotFoundException {

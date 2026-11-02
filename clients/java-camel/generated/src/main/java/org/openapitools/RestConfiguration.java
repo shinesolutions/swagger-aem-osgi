@@ -20,6 +20,6 @@ public class RestConfiguration extends RouteBuilder {
             .bindingMode(RestBindingMode.auto)
             .clientRequestValidation(false)
             .apiProperty("api.title", "Adobe Experience Manager OSGI config (AEM) API")
-            .apiProperty("api.version", "1.0.0-pre.0");
+            .apiProperty("api.version", "2.1.1-pre.0");
     }
 }

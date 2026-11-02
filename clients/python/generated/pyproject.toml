@@ -1,6 +1,6 @@
 [project]
 name = "swaggeraemosgi"
-version = "1.0.0-pre.0"
+version = "2.1.1-pre.0"
 description = "Adobe Experience Manager OSGI config (AEM) API"
 authors = [
   {name = "Shine Solutions",email = "opensource@shinesolutions.com"},

@@ -1,1 +1,1 @@
-propertylist,cq.pagesupdatehandler.videoresourcetypes,$location,apply,cq.pagesupdatehandler.previewmodepaths,cq.pagesupdatehandler.imageresourcetypes,cq.pagesupdatehandler.dynamicsequenceresourcetypes,delete,action,cq.pagesupdatehandler.productresourcetypes,post
+propertylist,$location,apply,action,post,cq.pagesupdatehandler.productresourcetypes,delete,cq.pagesupdatehandler.previewmodepaths,cq.pagesupdatehandler.imageresourcetypes,cq.pagesupdatehandler.videoresourcetypes,cq.pagesupdatehandler.dynamicsequenceresourcetypes

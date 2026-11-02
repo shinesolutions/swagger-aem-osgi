@@ -1,1 +1,1 @@
-propertylist,$location,apply,tenant.root,delete,action,tenant.path.matcher,post
+propertylist,$location,apply,action,post,tenant.root,tenant.path.matcher,delete

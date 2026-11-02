@@ -1,1 +1,1 @@
-propertylist,$location,apply,resultCacheTtlInMs,timeoutInMs,delete,action,post,longRunningFutureThresholdForCriticalMs
+propertylist,$location,apply,longRunningFutureThresholdForCriticalMs,action,post,delete,resultCacheTtlInMs,timeoutInMs

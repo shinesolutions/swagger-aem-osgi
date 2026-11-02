@@ -1,1 +1,1 @@
-jaas.controlFlag,propertylist,$location,apply,path,oauth.offline.validation,delete,action,post,jaas.realmName,jaas.ranking
+propertylist,$location,apply,jaas.controlFlag,jaas.realmName,jaas.ranking,action,post,delete,path,oauth.offline.validation

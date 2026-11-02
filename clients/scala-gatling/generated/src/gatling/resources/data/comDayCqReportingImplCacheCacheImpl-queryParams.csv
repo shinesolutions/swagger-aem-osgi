@@ -1,1 +1,1 @@
-repcache.max,propertylist,repcache.enable,$location,apply,repcache.ttl,delete,action,post
+repcache.max,propertylist,repcache.enable,$location,apply,action,post,delete,repcache.ttl

@@ -1,1 +1,1 @@
-propertylist,$location,apply,link.expired.suffix,link.expired.prefix,action,link.invalid.prefix,link.expired.remove,post,link.invalid.remove,link.predated.prefix,link.predated.remove,link.predated.suffix,link.wcmmodes,delete,link.invalid.suffix
+link.expired.suffix,propertylist,$location,apply,link.invalid.remove,action,post,link.invalid.suffix,link.invalid.prefix,link.predated.suffix,link.predated.remove,link.predated.prefix,delete,link.expired.prefix,link.expired.remove,link.wcmmodes

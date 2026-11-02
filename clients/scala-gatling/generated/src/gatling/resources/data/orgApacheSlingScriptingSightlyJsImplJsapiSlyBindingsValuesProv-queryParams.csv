@@ -1,1 +1,1 @@
-propertylist,$location,apply,delete,action,org.apache.sling.scripting.sightly.js.bindings,post
+propertylist,$location,apply,action,post,delete,org.apache.sling.scripting.sightly.js.bindings

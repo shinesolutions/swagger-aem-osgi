@@ -23,7 +23,7 @@ import jakarta.annotation.Generated;
  */
 
 @JsonTypeName("orgApacheSlingDistributionResourcesImplDistributionConfigurationProperties")
-@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-11-02T01:21:05.089992928Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingDistributionResourcesImplDistributionConfigurationProperties {
 
   @JsonInclude(JsonInclude.Include.NON_NULL)

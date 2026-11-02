@@ -1,6 +1,6 @@
 [package]
 name = "salvo_openapi"
-version = "1.0.0-pre.0"
+version = "2.1.1-pre.0"
 authors = ["opensource@shinesolutions.com"]
 description = "Swagger AEM OSGI is an OpenAPI specification for Adobe Experience Manager (AEM) OSGI Configurations API"
 license = "Unlicense"

@@ -1,1 +1,1 @@
-solr.home.path,propertylist,$location,apply,solr.core.name,delete,action,post
+propertylist,$location,apply,solr.home.path,solr.core.name,action,post,delete

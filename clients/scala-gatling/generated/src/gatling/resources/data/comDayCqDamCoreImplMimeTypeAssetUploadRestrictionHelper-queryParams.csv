@@ -1,1 +1,1 @@
-propertylist,$location,apply,cq.dam.allow.all.mime,cq.dam.allowed.asset.mimes,delete,action,post
+propertylist,$location,apply,action,post,delete,cq.dam.allowed.asset.mimes,cq.dam.allow.all.mime

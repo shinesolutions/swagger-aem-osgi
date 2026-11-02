@@ -726,7 +726,7 @@ import model.OrgApacheSlingXssImplXSSFilterImplInfo
 /**
   * Provides a default implementation for [[ConfigmgrApi]].
   */
-@javax.annotation.Generated(value = Array("org.openapitools.codegen.languages.ScalaPlayFrameworkServerCodegen"), date = "2026-10-07T13:00:43.037663378Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+@javax.annotation.Generated(value = Array("org.openapitools.codegen.languages.ScalaPlayFrameworkServerCodegen"), date = "2026-11-02T01:20:33.584884879Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 class ConfigmgrApiImpl extends ConfigmgrApi {
   /**
     * @inheritdoc

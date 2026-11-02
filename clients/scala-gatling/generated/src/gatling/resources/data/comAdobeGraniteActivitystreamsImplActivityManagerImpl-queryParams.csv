@@ -1,1 +1,1 @@
-propertylist,aggregate.relationships,$location,apply,delete,action,post,aggregate.descend.virtual
+propertylist,$location,apply,aggregate.relationships,action,post,aggregate.descend.virtual,delete

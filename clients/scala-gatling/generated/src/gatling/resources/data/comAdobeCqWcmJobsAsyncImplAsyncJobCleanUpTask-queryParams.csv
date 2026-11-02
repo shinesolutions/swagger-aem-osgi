@@ -1,1 +1,1 @@
-job.purge.max.jobs,propertylist,$location,apply,delete,scheduler.expression,action,post,job.purge.threshold
+propertylist,$location,job.purge.max.jobs,apply,action,post,job.purge.threshold,delete,scheduler.expression

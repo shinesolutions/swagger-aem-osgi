@@ -6,7 +6,7 @@ After the client have been generated, you have to change these following variabl
 - src/main.cpp | Change wifi password
 - lib/service/AbstractService.h | Change to your url
 
-# Documentation for Adobe Experience Manager OSGI config (AEM) API 1.0.0-pre.0 Tiny client cpp (Arduino) 
+# Documentation for Adobe Experience Manager OSGI config (AEM) API 2.1.1-pre.0 Tiny client cpp (Arduino) 
 
 The project is structured like this:
 ```

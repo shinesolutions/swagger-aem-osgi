@@ -1,1 +1,1 @@
-jaas.controlFlag,propertylist,$location,parameters,apply,trustedCredentialsAttribute,action,post,path,cookies,headers,format,delete,usermap,service.ranking,jaas.realmName,jaas.ranking
+propertylist,$location,parameters,apply,jaas.controlFlag,service.ranking,action,post,usermap,path,format,headers,cookies,jaas.realmName,jaas.ranking,delete,trustedCredentialsAttribute

@@ -16,7 +16,7 @@ import java.math.BigDecimal;
  * ConfigNodePropertyFloat
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-11-02T01:12:36.650816212Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ConfigNodePropertyFloat   {
   @JsonProperty("name")
   private String name;

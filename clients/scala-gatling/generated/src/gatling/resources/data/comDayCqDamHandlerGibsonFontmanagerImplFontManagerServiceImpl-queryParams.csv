@@ -1,1 +1,1 @@
-fontmgr.customer.font.dir,propertylist,$location,fontmgr.adobe.font.dir,apply,fontmgr.system.font.dir,delete,action,event.filter,post
+propertylist,fontmgr.customer.font.dir,$location,apply,action,fontmgr.adobe.font.dir,post,delete,event.filter,fontmgr.system.font.dir

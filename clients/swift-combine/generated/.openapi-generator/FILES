@@ -1,4 +1,3 @@
-.openapi-generator-ignore
 OpenAPIClient/Package.swift
 OpenAPIClient/Sources/APIs/ConfigmgrAPI.swift
 OpenAPIClient/Sources/Models/AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationInfo.swift

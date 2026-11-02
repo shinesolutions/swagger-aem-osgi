@@ -1,1 +1,1 @@
-eventrecorder.eventtypes,propertylist,$location,apply,eventrecorder.blacklist,eventrecorder.enabled,delete,action,event.filter,event.queue.length,post
+eventrecorder.eventtypes,propertylist,$location,eventrecorder.blacklist,apply,action,post,delete,event.filter,event.queue.length,eventrecorder.enabled

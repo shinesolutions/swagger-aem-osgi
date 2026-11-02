@@ -1,1 +1,1 @@
-propertylist,auth.uri.suffix,$location,apply,auth.annonymous,sling.auth.anonymous.password,action,sling.auth.anonymous.user,post,auth.http,osgi.http.whiteboard.listener,auth.sudo.cookie,delete,auth.sudo.parameter,sling.auth.requirements,osgi.http.whiteboard.context.select,auth.http.realm
+propertylist,auth.uri.suffix,$location,apply,action,osgi.http.whiteboard.context.select,post,auth.sudo.parameter,auth.http,sling.auth.requirements,auth.annonymous,sling.auth.anonymous.password,osgi.http.whiteboard.listener,auth.http.realm,sling.auth.anonymous.user,delete,auth.sudo.cookie

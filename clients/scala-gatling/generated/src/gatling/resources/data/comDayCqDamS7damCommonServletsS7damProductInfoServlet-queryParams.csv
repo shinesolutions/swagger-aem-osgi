@@ -1,1 +1,1 @@
-propertylist,$location,apply,delete,action,sling.servlet.paths,post,sling.servlet.methods
+propertylist,$location,apply,sling.servlet.paths,action,post,delete,sling.servlet.methods

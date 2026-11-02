@@ -1,1 +1,1 @@
-cq.accountmanager.config.informnewpwd.mail,propertylist,$location,apply,delete,action,cq.accountmanager.config.informnewaccount.mail,post
+propertylist,$location,apply,cq.accountmanager.config.informnewpwd.mail,action,cq.accountmanager.config.informnewaccount.mail,post,delete

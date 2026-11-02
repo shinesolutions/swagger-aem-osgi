@@ -1,1 +1,1 @@
-servletresolver.paths,propertylist,$location,apply,servletresolver.defaultExtensions,servletresolver.servletRoot,servletresolver.cacheSize,delete,action,post
+propertylist,$location,apply,action,post,servletresolver.paths,delete,servletresolver.servletRoot,servletresolver.cacheSize,servletresolver.defaultExtensions

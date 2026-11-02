@@ -1,1 +1,1 @@
-propertylist,cq.accountmanager.config.requestnewaccount.mail,$location,apply,delete,action,cq.accountmanager.config.requestnewpwd.mail,cq.accountmanager.token.validity.period,post
+propertylist,$location,apply,cq.accountmanager.config.requestnewaccount.mail,action,post,delete,cq.accountmanager.config.requestnewpwd.mail,cq.accountmanager.token.validity.period

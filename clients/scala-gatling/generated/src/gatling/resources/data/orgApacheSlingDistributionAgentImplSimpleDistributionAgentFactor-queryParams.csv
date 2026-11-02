@@ -1,1 +1,1 @@
-propertylist,serviceName,$location,triggers.target,apply,details,queue.processing.enabled,action,packageExporter.target,post,title,enabled,requestAuthorizationStrategy.target,log.level,packageImporter.target,delete,name
+triggers.target,propertylist,serviceName,$location,apply,action,post,packageImporter.target,enabled,log.level,requestAuthorizationStrategy.target,title,delete,packageExporter.target,details,name,queue.processing.enabled

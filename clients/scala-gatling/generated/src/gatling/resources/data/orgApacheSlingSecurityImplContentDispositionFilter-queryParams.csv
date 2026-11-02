@@ -1,1 +1,1 @@
-propertylist,sling.content.disposition.paths,$location,apply,sling.content.disposition.excluded.paths,delete,sling.content.disposition.all.paths,action,post
+propertylist,sling.content.disposition.paths,$location,apply,action,post,delete,sling.content.disposition.excluded.paths,sling.content.disposition.all.paths

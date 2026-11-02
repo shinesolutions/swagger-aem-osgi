@@ -1,1 +1,1 @@
-propertylist,$location,apply,granite.infocollector.includeHeapDump,delete,action,granite.infocollector.includeThreadDumps,post
+propertylist,$location,apply,action,post,delete,granite.infocollector.includeThreadDumps,granite.infocollector.includeHeapDump

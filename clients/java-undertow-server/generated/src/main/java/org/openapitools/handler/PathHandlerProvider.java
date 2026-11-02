@@ -3,7 +3,7 @@
  *
  * Swagger AEM OSGI is an OpenAPI specification for Adobe Experience Manager (AEM) OSGI Configurations API
  *
- * OpenAPI document version: 1.0.0-pre.0
+ * OpenAPI document version: 2.1.1-pre.0
  * Maintained by: opensource@shinesolutions.com
  *
  * AUTO-GENERATED FILE, DO NOT MODIFY!

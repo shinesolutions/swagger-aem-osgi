@@ -1,1 +1,1 @@
-packageBuilder.target,propertylist,serviceName,$location,triggers.target,apply,details,allowed.roots,action,post,title,priorityQueues,enabled,requestAuthorizationStrategy.target,log.level,delete,name,queueProviderFactory.target
+triggers.target,propertylist,serviceName,$location,apply,action,post,packageBuilder.target,queueProviderFactory.target,allowed.roots,priorityQueues,enabled,log.level,requestAuthorizationStrategy.target,title,delete,details,name

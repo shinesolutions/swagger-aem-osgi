@@ -1,1 +1,1 @@
-propertylist,$location,apply,leaseTimeOutMinutes,delete,failingIndexTimeoutSeconds,errorWarnIntervalSeconds,action,asyncConfigs,post
+propertylist,$location,apply,action,post,delete,asyncConfigs,leaseTimeOutMinutes,failingIndexTimeoutSeconds,errorWarnIntervalSeconds

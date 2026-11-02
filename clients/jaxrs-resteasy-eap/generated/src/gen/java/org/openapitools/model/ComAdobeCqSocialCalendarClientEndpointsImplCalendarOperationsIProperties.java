@@ -13,7 +13,7 @@ import javax.validation.constraints.*;
 import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2026-10-07T12:54:26.576036107Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2026-11-02T01:13:45.041822780Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIProperties   {
   
   private ConfigNodePropertyInteger maxRetry;

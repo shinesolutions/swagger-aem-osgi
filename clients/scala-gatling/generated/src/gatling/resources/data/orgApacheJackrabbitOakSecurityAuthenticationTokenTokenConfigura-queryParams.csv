@@ -1,1 +1,1 @@
-propertylist,$location,apply,tokenLength,passwordSaltSize,passwordHashAlgorithm,tokenCleanupThreshold,action,post,tokenExpiration,tokenRefresh,passwordHashIterations,delete
+propertylist,$location,apply,action,post,passwordHashAlgorithm,tokenLength,passwordHashIterations,tokenExpiration,tokenRefresh,delete,tokenCleanupThreshold,passwordSaltSize

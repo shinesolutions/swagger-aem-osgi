@@ -1,1 +1,1 @@
-serviceUser.target,propertylist,serviceName,$location,apply,delete,action,diffPath,post
+propertylist,serviceName,serviceUser.target,$location,apply,action,post,delete,diffPath

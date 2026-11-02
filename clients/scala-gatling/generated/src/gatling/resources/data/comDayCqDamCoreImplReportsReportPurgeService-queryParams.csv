@@ -1,1 +1,1 @@
-enableReportPurge,propertylist,$location,apply,delete,scheduler.expression,action,maxSavedReports,post,timeDuration
+propertylist,$location,apply,enableReportPurge,maxSavedReports,timeDuration,action,post,delete,scheduler.expression

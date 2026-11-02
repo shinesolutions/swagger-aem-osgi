@@ -1,1 +1,1 @@
-propertylist,$location,apply,cq.searchpromote.configuration.server.uri,socket.timeout,cq.searchpromote.configuration.environment,delete,connection.timeout,action,post
+propertylist,$location,apply,socket.timeout,action,post,delete,connection.timeout,cq.searchpromote.configuration.server.uri,cq.searchpromote.configuration.environment

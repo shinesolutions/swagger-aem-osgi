@@ -1,1 +1,1 @@
-notify.onupdate,propertylist,$location,apply,delete,action,notify.oncomplete,post
+notify.onupdate,propertylist,$location,apply,action,post,delete,notify.oncomplete

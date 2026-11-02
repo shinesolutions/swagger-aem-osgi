@@ -1,1 +1,1 @@
-propertylist,$location,apply,com.adobe.cq.screens.offlinecontent.impl.BulkOfflineUpdateServiceImpl.scheduleFrequency,delete,action,post,com.adobe.cq.screens.offlinecontent.impl.BulkOfflineUpdateServiceImpl.projectPath
+propertylist,$location,apply,action,post,com.adobe.cq.screens.offlinecontent.impl.BulkOfflineUpdateServiceImpl.projectPath,delete,com.adobe.cq.screens.offlinecontent.impl.BulkOfflineUpdateServiceImpl.scheduleFrequency

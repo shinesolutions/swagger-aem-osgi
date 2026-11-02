@@ -1,1 +1,1 @@
-propertylist,$location,apply,keepAliveTime,delete,action,poolSize,queueSize,post,maxPoolSize
+propertylist,$location,apply,action,post,maxPoolSize,delete,poolSize,keepAliveTime,queueSize
