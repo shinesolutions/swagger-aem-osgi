@@ -1,53 +1,86 @@
-[![Build Status](https://github.com/shinesolutions/swagger-aem-osgi/workflows/CI/badge.svg)](https://github.com/shinesolutions/swagger-aem-osgi/actions?query=workflow%3ACI)
+[![Build Status](https://github.com/shinesolutions/swagger-aem-osgi/actions/workflows/ci-workflow.yaml/badge.svg)](https://github.com/shinesolutions/swagger-aem-osgi/actions/workflows/ci-workflow.yaml)
 
 # Swagger AEM OSGI
 
 Swagger AEM OSGI is an OpenAPI specification for configuring [Adobe Experience Manager (AEM)](http://www.adobe.com/au/marketing-cloud/enterprise-content-management.html) API.
 
-This specification is used to generate client libraries for Ruby, Python, node.js, and Java using [Swagger Code Generator](https://github.com/swagger-api/swagger-codegen).
+This specification is used to generate client libraries for Ruby, Python, JavaScript and Java using [OpenAPI Generator](https://openapi-generator.tech/), with the build and release targets of [Swaggy C](https://github.com/oapicf/swaggy-c).
 
-Learn more about Swagger AEM:
+Learn more about Swagger AEM OSGI:
 
-* [Generated Clients](https://github.com/shinesolutions/swagger-aem-osgi#generated-clients)
-* [Development](https://github.com/shinesolutions/swagger-aem-osgi#development)
-* [Testing](https://github.com/shinesolutions/swagger-aem-osgi#testing)
-* [Frequently Asked Questions](https://github.com/shinesolutions/swagger-aem-osgi#frequently-asked-questions)
-* [Versions History](https://github.com/shinesolutions/swagger-aem-osgi/blob/master/docs/versions.md)
-* [Contribution](https://github.com/shinesolutions/swagger-aem-osgi#contribution)
-* [Presentations](https://github.com/shinesolutions/swagger-aem-osgi/#presentations)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Testing](#testing)
+* [Frequently Asked Questions](#frequently-asked-questions)
+* [Versions History](#versions-history)
+* [Presentations](#presentations)
 
 Swagger AEM OSGI is part of [AEM OpenCloud](https://aemopencloud.io) platform but it can be used as a stand-alone.
 
-## Generated Clients
+## Installation
 
-| Language   | Package                                                                                                                                                                                                                                                                 | Getting Started                                                                                                                                                                         | Status                                                                                                                                       |
-|------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
-| Ruby       | [swagger_aem_osgi](https://rubygems.org/gems/swagger_aem_osgi) [![Published Version](https://badge.fury.io/rb/swagger_aem_osgi.svg)](https://rubygems.org/gems/swagger_aem_osgi)                                                                                                            | [README](https://github.com/shinesolutions/swagger-aem-osgi/blob/master/ruby/README.md) [CHANGELOG](https://github.com/shinesolutions/swagger-aem-osgi/blob/master/ruby/CHANGELOG.md)             | [![swagger_aem_osgi Build Status](https://img.shields.io/travis/shinesolutions/swagger-aem-osgi.svg)](http://travis-ci.org/shinesolutions/swagger-aem-osgi) |
-| Python     | [swaggeraemosgi](https://pypi.python.org/pypi/swaggeraemosgi) [![Published Version](https://badge.fury.io/py/swaggeraemosgi.svg)](https://pypi.python.org/pypi/swaggeraemosgi)                                                                                                          | [README](https://github.com/shinesolutions/swagger-aem-osgi/blob/master/python/README.md) [CHANGELOG](https://github.com/shinesolutions/swagger-aem-osgi/blob/master/python/CHANGELOG.md)         |                                                                                                                                              |
-| Java       | [swaggeraemosgi4j](http://mvnrepository.com/artifact/com.shinesolutions/swaggeraemosgi4j) [![Published Version](https://maven-badges.herokuapp.com/maven-central/com.shinesolutions/swaggeraemosgi4j/badge.svg)](http://mvnrepository.com/artifact/com.shinesolutions/swaggeraemosgi4j) | [README](https://github.com/shinesolutions/swagger-aem-osgi/blob/master/java/README.md) [CHANGELOG](https://github.com/shinesolutions/swagger-aem-osgi/blob/master/java/CHANGELOG.md)             |                                                                                                                                              |
-| JavaScript | Work in progress                                                                                                                                                                                                                                                        | [README](https://github.com/shinesolutions/swagger-aem-osgi/blob/master/javascript/README.md) [CHANGELOG](https://github.com/shinesolutions/swagger-aem-osgi/blob/master/javascript/CHANGELOG.md) |                                                                                                                                              |
+### Requirements
 
-## Development
+The Swaggy C targets in `Makefile` generate the clients with the
+[OpenAPI Generator Docker image](https://hub.docker.com/r/openapitools/openapi-generator-cli), so they need Docker,
+plus Node.js, Python and Ruby to build and test the clients. CI runs them in the
+[cliffano/studio](https://hub.docker.com/r/cliffano/studio) Docker image.
 
-To run build targets using `swagger-codegen` in your path:
+The Java targets in `Makefile-extras` need Java and Apache Maven. Run them inside the
+[aem-platform-buildenv](https://github.com/shinesolutions/aem-platform-buildenv) Docker image, as CI does.
 
-```shell
-make <target>
+### Download
+
+Each release publishes every client with the same version:
+
+| Language   | Package | Getting Started |
+|------------|---------|-----------------|
+| Ruby       | [swagger_aem_osgi](https://rubygems.org/gems/swagger_aem_osgi) [![Published Version](https://badge.fury.io/rb/swagger_aem_osgi.svg)](https://rubygems.org/gems/swagger_aem_osgi) | [README](clients/ruby/generated/README.md) |
+| Python     | [swaggeraemosgi](https://pypi.org/project/swaggeraemosgi/) [![Published Version](https://badge.fury.io/py/swaggeraemosgi.svg)](https://pypi.org/project/swaggeraemosgi/) | [README](clients/python/generated/README.md) |
+| JavaScript | [node-swagger-aem-osgi](https://www.npmjs.com/package/node-swagger-aem-osgi) [![Published Version](https://badge.fury.io/js/node-swagger-aem-osgi.svg)](https://www.npmjs.com/package/node-swagger-aem-osgi) | [README](clients/javascript/generated/README.md) |
+| Java       | [com.shinesolutions:swaggeraemosgi4j](https://central.sonatype.com/artifact/com.shinesolutions/swaggeraemosgi4j) [![Published Version](https://img.shields.io/maven-central/v/com.shinesolutions/swaggeraemosgi4j)](https://central.sonatype.com/artifact/com.shinesolutions/swaggeraemosgi4j) | [README](clients/java/generated/README.md) |
+
+The API documentation is published to [GitHub Pages](https://shinesolutions.github.io/swagger-aem-osgi/api/latest/).
+
+### Build from source
+
+The specification is [specification/swagger-aem-osgi.yml](specification/swagger-aem-osgi.yml). Each client is generated into
+`clients/<language>/generated` using its `clients/<language>/conf.json`.
+
+| Target | Description |
+|---|---|
+| `make deps` | Pull the OpenAPI Generator Docker image and install the documentation tools |
+| `make init-spec` | Copy the specification to `stage/specification.yml`, with the contact details from `swaggy-c.yml` |
+| `make generate-primary` | Generate the JavaScript, Python and Ruby clients |
+| `make generate` | Generate all clients, including Java. Run by the **Generate API Clients** workflow, which commits the result |
+| `make build-javascript`, `build-python`, `build-ruby` | Build a generated client |
+| `make doc` | Generate the API documentation into `stage/gh-pages/api/latest` |
+| `make -f Makefile-extras build-java` | Package the committed Java client in `clients/java/generated` without running tests |
+| `make clean` | Remove `stage/` and the generated clients |
+
+```
+$ make clean deps init-spec generate-primary build-ruby
 ```
 
-If you want to use a custom `swagger-codegen-cli.jar`:
+The Java client is only regenerated by `make generate`. The Java targets build, test and publish the committed
+client as it is.
 
-```shell
-SWAGGER_CODEGEN_CLI_JAR=/path/to/swagger-codegen-cli.jar make <target>
-```
+## Usage
+
+See the Getting Started README of each client above, and the examples in [examples](examples) for calling AEM with
+the JavaScript, Python and Ruby clients.
 
 ## Testing
 
-Unit tests are generated by `swagger-codegen` along with the client code.
+| Target | Description |
+|---|---|
+| `make ci` | Clean, download dependencies, generate, build and test the JavaScript, Python and Ruby clients, then generate all clients and the API documentation. Run by the **CI** workflow |
+| `make test-javascript`, `test-python`, `test-ruby` | Build a client, then run its generated unit tests and the tests in `test/<language>` |
+| `make test-examples` | Run the client examples in [examples](examples) |
+| `make -f Makefile-extras test-java` | Run the generated unit tests of the committed Java client |
 
-Integration tests are part of Swagger AEM OSGI and require an AEM instance running on port 4502 with [Shine Solutions AEM Health Check](https://github.com/shinesolutions/aem-healthcheck) package installed.
-
-By default it uses AEM running on http://localhost:4502 with `admin` username and `admin` password. AEM instance parameters can be configured using environment variables `aem_protocol`, `aem_host`, `aem_port`, `aem_username`, `aem_password`, and `aem_debug`.
+Unit tests are generated by OpenAPI Generator along with the client code. The tests in [test](test) stub the HTTP
+calls, so they need no AEM instance.
 
 ## Frequently Asked Questions
 
@@ -74,14 +107,107 @@ aem_password=admin \
 ruby tools/openapi_spec_generator.rb --in templates/api.yml --out conf/api.yml
 ```
 
-## Contribution
+## Versions History
 
-Since swagger-aem-osgi contains multiple languages, add a `[ruby|python|javascript|java]` prefix to language-specific commits, this will help with filtering full commits log.
+Changes in each version are described in [CHANGELOG.md](CHANGELOG.md).
 
-Tagging should also be prefixed with:
+Since 2.0.0, the specification and all clients are released together with one version, tagged `<version>` in git,
+e.g. `2.1.0`. Versions follow [Semantic Versioning](https://semver.org/): use a major release for breaking changes,
+minor for new features and patch for fixes. Between releases, the version files hold the next pre-release version,
+e.g. `2.1.1-pre.0`. Before 2.0.0, the clients were released separately, with tags prefixed by
+the language, e.g. `ruby-1.0.0` and `python-1.0.0`.
 
-* `api` when the release is for the OpenAPI specification, e.g. `api-1.0.0`
-* `ruby|python|javascript|java` when the release is for the generated client, e.g. `ruby-0.9.2`, `python-0.9.0`
+Versions are managed with [RTK](https://github.com/cliffano/rtk), configured in `.rtk.json`. It sets the release
+version in the specification, every `clients/<language>/conf.json`, the Java client's `pom.xml`, `swaggy-c.yml` and
+CHANGELOG.md, and sets the publish workflows to check out the tag. It commits and tags the release, then commits the
+next pre-release version with the publish workflows back on `main`.
+
+### Release targets
+
+| Target | Description |
+|---|---|
+| `make release-major`, `release-minor`, `release-patch` | Release the next major, minor or patch version with RTK. Commits and tags `<version>` locally; push with `git push --follow-tags` |
+| `make publish-javascript`, `publish-python`, `publish-ruby` | Build a client and publish it to npm, PyPI or RubyGems. Run by the **Publish JavaScript**, **Publish Python** and **Publish Ruby** workflows on a pushed tag |
+| `make -f Makefile-extras publish-java` | Sign the committed Java client and upload it to the Maven Central Portal. Run by the **Publish Java** workflow on a pushed tag |
+| `make -f Makefile-extras publish-java-test` | Sign the Java client and upload it to the Maven Central Portal as a pre-release test version without publishing it, then print the deployment ID for `publish-java-status` and `publish-java-drop`. Uploads the current version with `-rc.0`, such as `2.1.1-rc.0` for `2.1.1-pre.0` |
+| `make -f Makefile-extras publish-java-status DEPLOYMENT_ID=<id>` | Show a Maven Central Portal deployment's state (e.g. `VALIDATED`, `PUBLISHED`, `FAILED`) and errors, using `MAVEN_CENTRAL_USERNAME` and `MAVEN_CENTRAL_PASSWORD` |
+| `make -f Makefile-extras publish-java-drop DEPLOYMENT_ID=<id>` | Drop (delete) a Maven Central Portal deployment that has not been published |
+
+### Release requirements
+
+The publish workflows hold the credentials, so a release from GitHub Actions needs none locally. To publish the Java
+client yourself, you need:
+
+- A GPG key for signing, with its public key on a keyserver such as `keyserver.ubuntu.com`
+  (Maven Central verifies signatures against it)
+- A Maven Central Portal user token for the `com.shinesolutions` namespace
+- Both are read from environment variables only, never from files. Enter them in your shell, so
+  the values stay hidden and out of your shell history:
+
+  ```
+  # GPG private key: run this, paste the whole key including the
+  # -----BEGIN/END PGP PRIVATE KEY BLOCK----- lines, press Enter, then Ctrl-D
+  $ stty -echo; MAVEN_GPG_KEY="$(cat)"; stty echo; export MAVEN_GPG_KEY
+
+  # GPG passphrase and Central Portal user token: type or paste each value, then press Enter
+  $ read -rs MAVEN_GPG_PASSPHRASE; export MAVEN_GPG_PASSPHRASE
+  $ read -rs MAVEN_CENTRAL_USERNAME; export MAVEN_CENTRAL_USERNAME
+  $ read -rs MAVEN_CENTRAL_PASSWORD; export MAVEN_CENTRAL_PASSWORD
+  ```
+
+Run the Java targets in aem-platform-buildenv, from this repository's directory. It passes the variables through by
+name:
+
+```
+$ docker run --rm -it -v "$(pwd)":/workspace/swagger-aem-osgi -w /workspace/swagger-aem-osgi \
+    -e MAVEN_GPG_KEY -e MAVEN_GPG_PASSPHRASE -e MAVEN_CENTRAL_USERNAME -e MAVEN_CENTRAL_PASSWORD \
+    shinesolutions/aem-platform-buildenv:6.4.1 bash
+```
+
+### Release steps
+1. Start from an up-to-date `main` with a green CI build and a clean working tree. Check that the
+   `## Unreleased` entries in CHANGELOG.md describe everything in this release.
+2. Optionally, check signing and the Maven Central upload of the Java client without publishing it:
+   ```
+   $ make -f Makefile-extras publish-java-test
+   ```
+   Then drop the test deployment with `publish-java-drop`. The upload counts towards the organisation's
+   [Maven Central publishing limits](https://central.sonatype.org/publish/maven-central-publishing-limits/).
+3. Create the release, either:
+   - In GitHub Actions, run the **Release Major**, **Release Minor** or **Release Patch** workflow.
+     It runs RTK and pushes the commits and the tag. Then `git pull --tags` to fetch them.
+   - Or locally with RTK installed, choosing `release-major`, `release-minor` or `release-patch`:
+     ```
+     $ make release-minor
+     $ git push --follow-tags
+     ```
+4. The pushed tag triggers the publish workflows:
+
+   | Workflow | Publishes to |
+   |---|---|
+   | **Publish API Documentation** | [GitHub Pages](https://shinesolutions.github.io/swagger-aem-osgi/api/latest/) |
+   | **Publish JavaScript** | [npm](https://www.npmjs.com/package/node-swagger-aem-osgi) |
+   | **Publish Python** | [PyPI](https://pypi.org/project/swaggeraemosgi/) |
+   | **Publish Ruby** | [RubyGems](https://rubygems.org/gems/swagger_aem_osgi) |
+   | **Publish Java** | [Maven Central](https://central.sonatype.com/artifact/com.shinesolutions/swaggeraemosgi4j), with the `SHINEOPENSOURCE_MVNREPOSITORY_TOKEN_USERNAME`, `SHINEOPENSOURCE_MVNREPOSITORY_TOKEN_PASSWORD`, `SHINEOPENSOURCE_MAVEN_GPG_KEY` and `SHINEOPENSOURCE_MAVEN_GPG_PASSPHRASE` GitHub secrets |
+
+   To upload the Java client yourself instead, in aem-platform-buildenv:
+   ```
+   $ git checkout <version>
+   $ make -f Makefile-extras build-java test-java publish-java
+   $ git checkout main
+   ```
+5. Publish the Java client on Maven Central. Maven Central validates the upload (signatures, checksums, POM, sources
+   and javadoc), then the deployment waits at [central.sonatype.com](https://central.sonatype.com) → Publishing →
+   Deployments: click **Publish** to release it, or **Drop** to discard it without publishing. A published version
+   can't be changed or removed. Without a Central Portal login, use the user token and the deployment ID printed by
+   `publish-java`:
+   ```
+   $ make -f Makefile-extras publish-java-status DEPLOYMENT_ID=<id>
+   $ make -f Makefile-extras publish-java-drop DEPLOYMENT_ID=<id>
+   ```
+6. Unset the secrets when you are done:
+   `unset MAVEN_GPG_KEY MAVEN_GPG_PASSPHRASE MAVEN_CENTRAL_USERNAME MAVEN_CENTRAL_PASSWORD`
 
 ## Presentations
 
