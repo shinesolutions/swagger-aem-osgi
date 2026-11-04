@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Update README with installation, testing and release steps similar to aem-orchestrator
 - Upgrade aem-platform-buildenv to 6.5.0, which has RTK 4.4.0
 - Use the RTK xml resource type for the pom.xml version
+- Upgrade release-action to 2.2.0
 
 ### Fixed
 - Fix Java publishing checkout failing on dubious repository ownership in the build container
