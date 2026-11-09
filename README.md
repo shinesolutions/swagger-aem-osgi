@@ -1,4 +1,5 @@
 [![Build Status](https://github.com/shinesolutions/swagger-aem-osgi/actions/workflows/ci-workflow.yaml/badge.svg)](https://github.com/shinesolutions/swagger-aem-osgi/actions/workflows/ci-workflow.yaml)
+[![Code Scanning Status](https://github.com/shinesolutions/swagger-aem-osgi/actions/workflows/codeql-analysis-workflow.yaml/badge.svg)](https://github.com/shinesolutions/swagger-aem-osgi/actions/workflows/codeql-analysis-workflow.yaml)
 
 # Swagger AEM OSGI
 
