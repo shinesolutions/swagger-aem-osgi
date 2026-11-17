@@ -14,6 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Upgrade release-action to 2.2.0
 
 ### Fixed
+- Fix CI for Dependabot pull requests, which get no Actions secrets: check out with the workflow's read-only GITHUB_TOKEN instead of a secret token, and skip publishing gh-pages
 - Fix Java publishing checkout failing on dubious repository ownership in the build container
 - Fix Java publishing credentials to use the Maven Central token secrets of aem-orchestrator
 
