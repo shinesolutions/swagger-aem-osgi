@@ -1,13 +1,33 @@
 ---
 name: CI
-on: [push, pull_request, workflow_dispatch]
+on:
+  # Branches only: release tags are already built by the publish workflows
+  push:
+    branches: ['**']
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+# Cancel a branch's in-progress run when a newer commit is pushed, main
+# excepted so that every main commit keeps a complete CI result
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: ${{ github.ref != 'refs/heads/main' }}
 jobs:
   build:
+    # Same-repo PRs are already built by the push run on their branch, so only
+    # run for PRs from forks. Also skip the release's "Bump up to next
+    # pre-release version" commit, which only changes version strings
+    if: >-
+      (github.event_name != 'pull_request' ||
+       github.event.pull_request.head.repo.full_name != github.repository) &&
+      !startsWith(github.event.head_commit.message || '',
+                  'Bump up to next pre-release version')
+    # Fail a hung build instead of running to GitHub's 6 hour default
+    timeout-minutes: 120
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v7
-        with:
-          token: ${{ secrets.SHINEOPENSOURCE_GITHUB_TOKEN }}
       - uses: iamsauravsharma/create-dotenv@v2.0.1
         with:
           file-path: '/tmp/.env'
@@ -22,7 +42,9 @@ jobs:
           # TODO: replace /root with studio-user's home when available
           extra_path: '/root/.cargo/bin:/root/.local/bin:/root/go/bin:/opt/poetry-venv/bin:/opt/poetry/bin:/usr/local/go/bin:/usr/local/maven/bin:/usr/local/node/bin:/usr/local/openjdk-jdk/bin'
           env_file: '/tmp/.env'
-      - uses: peaceiris/actions-gh-pages@v4
+      # Dependabot can't push to gh-pages, as it gets no Actions secrets
+      - if: github.actor != 'dependabot[bot]'
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.SHINEOPENSOURCE_GITHUB_TOKEN }}
           publish_dir: stage/gh-pages

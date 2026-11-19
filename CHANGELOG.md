@@ -6,12 +6,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 ### Changed
+- Speed up CI: skip CI for release tags, same-repo pull requests and version bump commits, cancel superseded branch runs, and add job timeouts
+- Make the GitHub Actions workflows' GITHUB_TOKEN read-only
 - Update README with installation, testing and release steps similar to aem-orchestrator
-- Upgrade aem-platform-buildenv to 6.5.0, which has RTK 4.4.0
+- Upgrade aem-platform-buildenv to 6.6.0, which has RTK 4.4.0
 - Use the RTK xml resource type for the pom.xml version
 - Upgrade release-action to 2.2.0
 
 ### Fixed
+- Fix CI for Dependabot pull requests, which get no Actions secrets: check out with the workflow's read-only GITHUB_TOKEN instead of a secret token, and skip publishing gh-pages
 - Fix Java publishing checkout failing on dubious repository ownership in the build container
 - Fix Java publishing credentials to use the Maven Central token secrets of aem-orchestrator
 
