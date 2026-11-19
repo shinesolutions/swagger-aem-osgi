@@ -161,7 +161,7 @@ name:
 ```
 $ docker run --rm -it -v "$(pwd)":/workspace/swagger-aem-osgi -w /workspace/swagger-aem-osgi \
     -e MAVEN_GPG_KEY -e MAVEN_GPG_PASSPHRASE -e MAVEN_CENTRAL_USERNAME -e MAVEN_CENTRAL_PASSWORD \
-    shinesolutions/aem-platform-buildenv:6.6.0 bash
+    shinesolutions/aem-platform-buildenv:6.7.0 bash
 ```
 
 ### Release steps
